@@ -40,7 +40,7 @@ export default function DetailsCards() {
       <p className="text-md text-[var(--color-warm-gray)]" style={{ fontFamily: 'var(--font-heading)' }}>
         Some paragraph containing thanks and such for coming, and then some stuff about info below.
       </p>
-
+      <br></br>
       {cards.map((card) => (
         <div
           key={card.link}
