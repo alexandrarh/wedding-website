@@ -4,10 +4,12 @@ import Venue from './pages/Venue'
 import WhereToStay from './pages/WhereToStay'
 import ThingsToDo from './pages/ThingsToDo'
 import Faq from './pages/Faq'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   return (
     <BrowserRouter>
+    <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/venue" element={<Venue />} />
