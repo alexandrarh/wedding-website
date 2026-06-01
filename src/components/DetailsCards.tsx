@@ -59,7 +59,7 @@ export default function DetailsCards() {
           </p>
           <button
             onClick={() => navigate(card.link)}
-            className="self-start mt-2 text-xs tracking-[0.2em] uppercase border-b border-[var(--color-rose)] text-[var(--color-charcoal)] hover:text-[var(--color-rose)] transition-colors pb-0.5"
+            className="self-start mt-2 text-xs tracking-[0.2em] uppercase border-b border-[var(--color-rose)] text-[var(--color-charcoal)] cursor-pointer hover:text-[var(--color-rose)] transition-colors pb-0.5"
           >
             {card.cta}
           </button>

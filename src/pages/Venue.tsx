@@ -17,7 +17,7 @@ const venue_sections = [
     title: 'Ceremony Venue',
     place_name: 'St. Dominic\'\s Catholic Church',
     desc: 'Ceremony venue description',
-    button_link: 'https://maps.app.goo.gl/QQhAeRzvLT2H6MCHA',
+    button_link: 'https://maps.google.com',
     bg_color: 'var(--color-blush)',
     align: 'left',
     photo: heroImg,
@@ -37,45 +37,47 @@ const venue_sections = [
 export default function Venue() {
   return (
     <main>
-      {venue_sections.map((section, index) => (
+      <section
+        className="px-8 py-6"
+        style={{ backgroundColor: 'var(--color-blush)' }}
+      >
+        <div className="max-w-6xl mx-auto w-full">
+          <Breadcrumb>
+            <BreadcrumbList>
+              <BreadcrumbItem>
+                <BreadcrumbLink href="/">Home</BreadcrumbLink>
+              </BreadcrumbItem>
+              <BreadcrumbSeparator />
+              <BreadcrumbItem>
+                <BreadcrumbPage>Venues</BreadcrumbPage>
+              </BreadcrumbItem>
+              <BreadcrumbSeparator />
+              <BreadcrumbItem>
+                <BreadcrumbLink href="/where-to-stay">Where to Stay</BreadcrumbLink>
+              </BreadcrumbItem>
+              <BreadcrumbSeparator />
+              <BreadcrumbItem>
+                <BreadcrumbLink href="/things-to-do">Things to Do</BreadcrumbLink>
+              </BreadcrumbItem>
+            </BreadcrumbList>
+          </Breadcrumb>
+        </div>
+      </section>
+
+      {venue_sections.map((section) => (
         <section
           key={section.id}
           id={section.id}
-          className="py-16 px-8 flex flex-col gap-8"
+          className="py-12 px-8 flex flex-col gap-8"
           style={{ backgroundColor: section.bg_color }}
         >
-          {index === 0 && (
-            <div className="max-w-6xl mx-auto w-full">
-              <Breadcrumb>
-                <BreadcrumbList>
-                  <BreadcrumbItem>
-                    <BreadcrumbLink href="/">Home</BreadcrumbLink>
-                  </BreadcrumbItem>
-                  <BreadcrumbSeparator />
-                  <BreadcrumbItem>
-                    <BreadcrumbPage>Venues</BreadcrumbPage>
-                  </BreadcrumbItem>
-                  <BreadcrumbSeparator />
-                  <BreadcrumbItem>
-                    <BreadcrumbLink href="/where-to-stay">Where to Stay</BreadcrumbLink>
-                  </BreadcrumbItem>
-                  <BreadcrumbSeparator />
-                  <BreadcrumbItem>
-                    <BreadcrumbLink href="/things-to-do">Things to Do</BreadcrumbLink>
-                  </BreadcrumbItem>
-                </BreadcrumbList>
-              </Breadcrumb>
-            </div>
-          )}
           <div
             className={`flex flex-col ${
               section.align === 'right' ? 'lg:flex-row-reverse' : 'lg:flex-row'
             } gap-12 items-center max-w-6xl mx-auto w-full`}
           >
             <div className="flex flex-col gap-4 flex-1">
-              <p
-                className="text-xs tracking-[0.25em] uppercase text-[var(--color-warm-gray)]"
-              >
+              <p className="text-xs tracking-[0.25em] uppercase text-[var(--color-warm-gray)]">
                 {section.title}
               </p>
               <h2
@@ -84,9 +86,7 @@ export default function Venue() {
               >
                 {section.place_name}
               </h2>
-              <p
-                className="text-sm text-[var(--color-warm-gray)] leading-relaxed"
-              >
+              <p className="text-sm text-[var(--color-warm-gray)] leading-relaxed">
                 {section.desc}
               </p>
               <a

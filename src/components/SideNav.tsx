@@ -71,7 +71,7 @@ export default function SideNav() {
           className={`w-2 h-2 rounded-full transition-all duration-300 ${
             activeSection === id
               ? 'bg-[var(--color-charcoal)] scale-125'
-              : 'bg-[var(--color-charcoal)]/30 hover:bg-[var(--color-charcoal)]/60'
+              : 'bg-[var(--color-charcoal)]/30 cursor-pointer hover:bg-[var(--color-charcoal)]/60'
           }`}
           aria-label={`Scroll to ${id}`}
         />

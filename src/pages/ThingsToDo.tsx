@@ -8,110 +8,66 @@ import {
 } from "@/components/ui/breadcrumb"
 
 import Footer from "../components/Footer"
-import heroImg from "../assets/st_doms_cropped.webp"
-import sfView from "../assets/sf_view.webp"
+import omni from "../assets/omni.webp"
+import ThingsToDoCards from "../components/ThingsToDoCards"
 
-const venue_sections = [
-  {
-    id: 'ceremony-venue',
-    title: 'Ceremony Venue',
-    place_name: 'St. Dominic\'\s Catholic Church',
-    desc: 'Ceremony venue description',
-    button_link: 'https://maps.app.goo.gl/QQhAeRzvLT2H6MCHA',
-    bg_color: 'var(--color-blush)',
-    align: 'left',
-    photo: heroImg,
-  },
-  {
-    id: 'reception-venue',
-    title: 'Reception Venue',
-    place_name: 'TBD',
-    desc: 'Reception venue description',
-    button_link: 'https://maps.google.com',
-    bg_color: 'var(--color-cream)',
-    align: 'right',
-    photo: sfView,
-  },
-]
-
-export default function ThingsToDo() {
+export default function WhereToStay() {
   return (
     <main>
-      {venue_sections.map((section, index) => (
-        <section
-          key={section.id}
-          id={section.id}
-          className="py-16 px-8 flex flex-col gap-8"
-          style={{ backgroundColor: section.bg_color }}
-        >
-          {index === 0 && (
-            <div className="max-w-6xl mx-auto w-full">
-              <Breadcrumb>
-                <BreadcrumbList>
-                  <BreadcrumbItem>
-                    <BreadcrumbLink href="/">Home</BreadcrumbLink>
-                  </BreadcrumbItem>
-                  <BreadcrumbSeparator />
-                  <BreadcrumbItem>
-                    <BreadcrumbLink href="/venue">Venues</BreadcrumbLink>
-                  </BreadcrumbItem>
-                  <BreadcrumbSeparator />
-                  <BreadcrumbItem>
-                    <BreadcrumbLink href="/where-to-stay">Where to Stay</BreadcrumbLink>
-                  </BreadcrumbItem>
-                  <BreadcrumbSeparator />
-                  <BreadcrumbItem>
-                    <BreadcrumbPage>Things to Do</BreadcrumbPage>
-                  </BreadcrumbItem>
-                </BreadcrumbList>
-              </Breadcrumb>
-            </div>
-          )}
-          <div
-            className={`flex flex-col ${
-              section.align === 'right' ? 'lg:flex-row-reverse' : 'lg:flex-row'
-            } gap-12 items-center max-w-6xl mx-auto w-full`}
-          >
+      <section
+        className="px-8 py-6"
+        style={{ backgroundColor: 'var(--color-blush)' }}
+      >
+        <div className="max-w-6xl mx-auto w-full flex flex-col gap-4">
+          <Breadcrumb>
+            <BreadcrumbList>
+              <BreadcrumbItem>
+                <BreadcrumbLink href="/">Home</BreadcrumbLink>
+              </BreadcrumbItem>
+              <BreadcrumbSeparator />
+              <BreadcrumbItem>
+                <BreadcrumbLink href="/venue">Venues</BreadcrumbLink>
+              </BreadcrumbItem>
+              <BreadcrumbSeparator />
+              <BreadcrumbItem>
+                <BreadcrumbLink href="/where-to-stay">Where to Stay</BreadcrumbLink>
+              </BreadcrumbItem>
+              <BreadcrumbSeparator />
+              <BreadcrumbItem>
+                <BreadcrumbPage>Things to Do</BreadcrumbPage>
+              </BreadcrumbItem>
+            </BreadcrumbList>
+          </Breadcrumb>
+          
+          <div className="flex flex-col lg:flex-row gap-12 items-center mt-6">
             <div className="flex flex-col gap-4 flex-1">
-              <p
-                className="text-xs tracking-[0.25em] uppercase text-[var(--color-warm-gray)]"
-              >
-                {section.title}
-              </p>
-              <h2
-                className="text-4xl text-[var(--color-charcoal)]"
+              <h1
+                className="text-5xl text-[var(--color-charcoal)]"
                 style={{ fontFamily: 'var(--font-heading)' }}
               >
-                {section.place_name}
-              </h2>
+                Things to Do
+              </h1>
               <p
-                className="text-sm text-[var(--color-warm-gray)] leading-relaxed"
+                className="text-md text-[var(--color-warm-gray)]"
+                style={{ fontFamily: 'var(--font-sans)' }}
               >
-                {section.desc}
+                Something about where to stay, blah blah
               </p>
-              <a
-                href={section.button_link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="self-start mt-2 text-xs tracking-[0.2em] uppercase border-b border-[var(--color-rose)] text-[var(--color-charcoal)] hover:text-[var(--color-rose)] transition-colors pb-0.5"
-              >
-                Get Directions
-              </a>
             </div>
 
             <div className="flex-1 w-full">
               <div className="overflow-hidden rounded-xl">
                 <img
-                  src={section.photo}
-                  alt={section.title}
+                  src={omni}
+                  alt="Where to Stay"
                   className="w-full aspect-[4/3] object-cover"
                 />
               </div>
             </div>
           </div>
-        </section>
-      ))}
-
+        </div>
+      </section>
+      <ThingsToDoCards />
       <Footer />
     </main>
   )

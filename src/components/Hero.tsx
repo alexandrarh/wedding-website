@@ -40,7 +40,7 @@ export default function Hero() {
 
         <button
           onClick={handleScroll}
-          className="mt-4 text-xs tracking-[0.22em] uppercase text-white border border-white/50 px-8 py-3 hover:bg-white/10 transition-colors"
+          className="mt-4 text-xs tracking-[0.22em] uppercase text-white border border-white/50 px-8 py-3 cursor-pointer hover:bg-white/10 transition-colors"
         >
           See Details
         </button>
