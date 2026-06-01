@@ -11,10 +11,13 @@ import Footer from "../components/Footer"
 import omni from "../assets/omni.webp"
 import PlacesToEatCards from "../components/PlacesToEatCards"
 import SpotsToSeeCards from "../components/SpotsToSeeCards"
+import NeighborhoodsToExplore from "../components/NeighborhoodsToExplore"
+import ThingsToDoSideNav from "@/components/ThingsToDoSideNav"
 
 export default function WhereToStay() {
   return (
     <main>
+      <ThingsToDoSideNav />
       <section
         className="px-8 py-6"
         style={{ backgroundColor: 'var(--color-blush)' }}
@@ -73,6 +76,10 @@ export default function WhereToStay() {
         <div className="w-150 h-px" style={{ backgroundColor: 'var(--color-warm-gray)' }} />
       </div>
       <SpotsToSeeCards />
+      <div className="flex justify-center w-full py-6" style={{ backgroundColor: 'var(--color-blush)' }}>
+        <div className="w-150 h-px" style={{ backgroundColor: 'var(--color-warm-gray)' }} />
+      </div>
+      <NeighborhoodsToExplore />
       <Footer />
     </main>
   )

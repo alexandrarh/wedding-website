@@ -1,3 +1,11 @@
+import Footer from "../components/Footer"
+import FaqSection from "@/components/FaqSection"
+
 export default function Faq() {
-  return <div>Faq</div>
+  return (
+    <main>
+      <FaqSection />
+      <Footer />
+    </main>
+  )
 }

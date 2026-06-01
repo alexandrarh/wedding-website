@@ -1,4 +1,4 @@
-import { local_edition, sams_burgers, sweet_maple, zy_peking } from '../assets/images/things_to_do'
+import { local_edition, sams_burgers, sweet_maple, zy_peking } from '../assets/images/places_to_eat'
 
 const restaurant_details = [
   {
@@ -39,10 +39,10 @@ const restaurant_details = [
   }
 ]
 
-export default function ThingsToDoCards() {
+export default function PlacesToEatCards() {
   return (
     <section
-      id="things-to-do-cards"
+      id="places-to-eat"
       className="pt-12 pb-18 px-6 flex flex-col items-center gap-6"
       style={{ backgroundColor: 'var(--color-blush)' }}
     >
