@@ -8,7 +8,7 @@ const restaurant_details = [
     description: 'Our top brunch spot with an Asian fusion twist',
     neighborhood: 'Japantown',
     link: 'https://www.sweetmaplesf.com/menu-san-francisco',
-    img: sweet_maple
+    img: sweet_maple,
   },
   {
     id: 'zy-peking',
@@ -17,7 +17,7 @@ const restaurant_details = [
     description: 'Great dim sum place, but even better Peking duck',
     neighborhood: 'Chinatown',
     link: 'https://zandypekingduck.com/',
-    img: zy_peking
+    img: zy_peking,
   },
   {
     id: 'sams',
@@ -26,7 +26,7 @@ const restaurant_details = [
     description: 'Anthony Bourdain ate here once, and he never lied',
     neighborhood: 'Little Italy',
     link: 'https://www.samsburgers.com/',
-    img: sams_burgers
+    img: sams_burgers,
   },
   {
     id: 'local-edition',
@@ -35,7 +35,7 @@ const restaurant_details = [
     description: 'The crafted drinks + live music = heaven on earth',
     neighborhood: 'SoMa',
     link: 'https://www.localeditionsf.com/',
-    img: local_edition
+    img: local_edition,
   }
 ]
 
@@ -43,14 +43,14 @@ export default function ThingsToDoCards() {
   return (
     <section
       id="things-to-do-cards"
-      className="py-12 px-6 flex flex-col items-center gap-6"
+      className="pt-12 pb-18 px-6 flex flex-col items-center gap-6"
       style={{ backgroundColor: 'var(--color-blush)' }}
     >
       <p className="text-3xl text-[var(--color-charcoal)]">
         Our recommended eats (and drinks)
       </p>
       <p
-        className="text-lg text-[var(--color-charcoal)]"
+        className="pb-8 text-lg text-[var(--color-charcoal)]"
         style={{ fontFamily: 'var(--font-heading)' }}
       >
         In need of some grub recommendations in the city? Look no further than this guide. Source: trust us.
@@ -71,6 +71,7 @@ export default function ThingsToDoCards() {
               src={restaurant.img}
               alt={restaurant.restaurant_name}
               className="h-24 w-auto object-contain my-2"
+              style={{ filter: 'drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.54))' }}
             />
 
             <p className="text-ml text-[var(--color-warm-gray)]" >
@@ -90,7 +91,7 @@ export default function ThingsToDoCards() {
               Learn More
             </a>
           </div>
-                  ))}
+        ))}
       </div>
     </section>
   )

@@ -9,7 +9,8 @@ import {
 
 import Footer from "../components/Footer"
 import omni from "../assets/omni.webp"
-import ThingsToDoCards from "../components/ThingsToDoCards"
+import PlacesToEatCards from "../components/PlacesToEatCards"
+import SpotsToSeeCards from "../components/SpotsToSeeCards"
 
 export default function WhereToStay() {
   return (
@@ -51,7 +52,7 @@ export default function WhereToStay() {
                 className="text-md text-[var(--color-warm-gray)]"
                 style={{ fontFamily: 'var(--font-sans)' }}
               >
-                Something about where to stay, blah blah
+                Something about what to do in the city.
               </p>
             </div>
 
@@ -67,7 +68,11 @@ export default function WhereToStay() {
           </div>
         </div>
       </section>
-      <ThingsToDoCards />
+      <PlacesToEatCards />
+      <div className="flex justify-center w-full py-6" style={{ backgroundColor: 'var(--color-blush)' }}>
+        <div className="w-150 h-px" style={{ backgroundColor: 'var(--color-warm-gray)' }} />
+      </div>
+      <SpotsToSeeCards />
       <Footer />
     </main>
   )
