@@ -17,7 +17,7 @@ function App() {
         <Route path="/things-to-do" element={<ThingsToDo />} />
         <Route path="/faq" element={<Faq />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
