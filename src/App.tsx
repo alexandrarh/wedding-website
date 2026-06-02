@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Venue from './pages/Venue'
 import WhereToStay from './pages/WhereToStay'
@@ -8,7 +8,7 @@ import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
     <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -17,7 +17,7 @@ function App() {
         <Route path="/things-to-do" element={<ThingsToDo />} />
         <Route path="/faq" element={<Faq />} />
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   )
 }
 
