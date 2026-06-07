@@ -36,12 +36,22 @@ export default function Hero() {
 
         <div className="w-8 h-px bg-white/50 mt-2" />
 
-        <button
-          onClick={handleScroll}
+        <div className="flex flex-col items-center gap-1">
+          <a
+          href="https://rsvp.alexandseamus2027.com"
+          target="_blank"
+          rel="noopener noreferrer"
           className="mt-4 text-xs tracking-[0.22em] uppercase text-white border border-white/50 px-8 py-3 cursor-pointer hover:bg-white/10 transition-colors"
-        >
-          See Details
-        </button>
+          >
+            RSVP
+          </a>
+          <button
+            onClick={handleScroll}
+            className="mt-4 text-xs tracking-[0.22em] uppercase text-white border border-white/50 px-8 py-3 cursor-pointer hover:bg-white/10 transition-colors"
+          >
+            See Details
+          </button>
+        </div>
       </div>
     </section>
   )

@@ -28,7 +28,7 @@ const venue_sections = [
     button_link: 'https://maps.app.goo.gl/CzqdQL11xX8f7u3n9',
     bg_color: 'var(--color-cream)',
     align: 'right',
-    photo: "/presidio.webp",
+    photo: "/presidio_moraga_hall.webp",
   },
 ]
 
