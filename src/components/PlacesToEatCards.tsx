@@ -1,4 +1,4 @@
-import { local_edition, sams_burgers, sweet_maple, zy_peking } from '../assets/images/places_to_eat'
+import { local_edition, sams_burgers, sweet_maple, zy_peking } from '../../public/images/places_to_eat'
 
 const restaurant_details = [
   {

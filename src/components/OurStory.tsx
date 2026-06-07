@@ -6,7 +6,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel"
 import Autoplay from "embla-carousel-autoplay"
-import { firstImg, secondImg, thirdImg, fourthImg, fifthImg, sixthImg, seventhImg } from "../assets/images/engagement_pics"
+import { firstImg, secondImg, thirdImg, fourthImg, fifthImg, sixthImg, seventhImg } from "../../public/images/engagement_pics"
 
 const photos = [
   firstImg,
