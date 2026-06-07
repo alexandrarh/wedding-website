@@ -8,8 +8,6 @@ import {
 } from "@/components/ui/breadcrumb"
 
 import Footer from "../components/Footer"
-import st_doms from "../assets/st_doms_cropped.webp"
-import presidio from "../assets/presidio.webp"
 
 const venue_sections = [
   {
@@ -20,7 +18,7 @@ const venue_sections = [
     button_link: 'https://maps.app.goo.gl/k84phfCDDjHJ7BZB9',
     bg_color: 'var(--color-blush)',
     align: 'left',
-    photo: st_doms,
+    photo: "/st_doms_cropped.webp",
   },
   {
     id: 'reception-venue',
@@ -30,7 +28,7 @@ const venue_sections = [
     button_link: 'https://maps.app.goo.gl/CzqdQL11xX8f7u3n9',
     bg_color: 'var(--color-cream)',
     align: 'right',
-    photo: presidio,
+    photo: "/presidio.webp",
   },
 ]
 

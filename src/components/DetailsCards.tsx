@@ -1,28 +1,25 @@
 import { useNavigate } from 'react-router-dom'
-import sfView from '../assets/sf_view.webp'
-import stDoms from '../assets/st_doms_cropped.webp'
-import omni from '../assets/omni.webp'
 
 const cards = [
   {
     title: 'The Venues',
     description: 'Our venues are nothing but the best for our lovely guests! Find out more about the ceremony and reception venues.',
     link: '/venue',
-    image: stDoms,
+    image: '/st_doms_cropped.webp',
     cta: 'Learn More',
   },
   {
     title: 'Where to Stay',
     description: 'If you\'re spending more than a day in the city, check out some of our recommended hotels and accommodations to make the most of your time in San Francisco.',
     link: '/where-to-stay',
-    image: omni,
+    image: '/omni.webp',
     cta: 'See Suggestions',
   },
   {
     title: 'Things to Do',
     description: 'Got some free time on your hands before the wedding? Check out some of our favorite spots in the city to explore. We promise they\'re not all tourist traps!',
     link: '/things-to-do',
-    image: sfView,
+    image: '/sf_view.webp',
     cta: 'Explore the City',
   },
 ]

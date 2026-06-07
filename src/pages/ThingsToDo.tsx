@@ -8,7 +8,6 @@ import {
 } from "@/components/ui/breadcrumb"
 
 import Footer from "../components/Footer"
-import omni from "../assets/omni.webp"
 import PlacesToEatCards from "../components/PlacesToEatCards"
 import SpotsToSeeCards from "../components/SpotsToSeeCards"
 import NeighborhoodsToExplore from "../components/NeighborhoodsToExplore"
@@ -62,7 +61,7 @@ export default function WhereToStay() {
             <div className="flex-1 w-full">
               <div className="overflow-hidden rounded-xl">
                 <img
-                  src={omni}
+                  src="/omni.webp"
                   alt="Where to Stay"
                   className="w-full aspect-[4/3] object-cover"
                 />

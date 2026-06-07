@@ -1,12 +1,10 @@
-import omni from '../assets/omni.webp'  // Replace with where_to_stay
-
 const spots_details = [
   {
     id: 'city_lights',
     name: 'City Lights Bookstore',
     neighborhood: 'Little Italy',
     desc: 'Where both of us like to get our books from!',
-    img: omni,
+    img: '/omni.webp',
     place_link:''
   },
   {
@@ -14,7 +12,7 @@ const spots_details = [
     name: 'Fort Mason Park',
     neighborhood: 'Fort Mason',
     desc: 'The views from this park make us feel inspired honestly. The nature is too good',
-    img: omni,
+    img: '/omni.webp',
     place_link:''
   },
   {
@@ -22,7 +20,7 @@ const spots_details = [
     name: 'DeYoung Museum',
     neighborhood: 'Golden Gate Park',
     desc: 'A good contemporary art museum with a lot of revolving exhibits!',
-    img: omni,
+    img: '/omni.webp',
     place_link:''
   },
   {
@@ -30,7 +28,7 @@ const spots_details = [
     name: 'Ferry Building',
     neighborhood: 'Embarcadero',
     desc: 'Has super cute shops and eateries; I highly recommend you check out Nopa Fish for some seafood chowder!',
-    img: omni,
+    img: '/omni.webp',
     place_link:''
   },
   {
@@ -38,7 +36,7 @@ const spots_details = [
     name: 'Exploratorium',
     neighborhood: 'Embarcadero',
     desc: 'A cool interactive exhibit, great for the kids and adults',
-    img: omni,
+    img: '/omni.webp',
     place_link:''
   }
 ]

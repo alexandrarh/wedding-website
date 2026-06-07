@@ -1,5 +1,3 @@
-import { local_edition, sams_burgers, sweet_maple, zy_peking } from '../../public/images/places_to_eat'
-
 const restaurant_details = [
   {
     id: 'sweet-maple',
@@ -8,7 +6,7 @@ const restaurant_details = [
     description: 'Our top brunch spot with an Asian fusion twist',
     neighborhood: 'Japantown',
     link: 'https://www.sweetmaplesf.com/menu-san-francisco',
-    img: sweet_maple,
+    img: '/images/places_to_eat/sweet_maple.webp',
   },
   {
     id: 'zy-peking',
@@ -17,7 +15,7 @@ const restaurant_details = [
     description: 'Great dim sum place, but even better Peking duck',
     neighborhood: 'Chinatown',
     link: 'https://zandypekingduck.com/',
-    img: zy_peking,
+    img: '/images/places_to_eat/zy_peking.webp',
   },
   {
     id: 'sams',
@@ -26,7 +24,7 @@ const restaurant_details = [
     description: 'Anthony Bourdain ate here once, and he never lied',
     neighborhood: 'Little Italy',
     link: 'https://www.samsburgers.com/',
-    img: sams_burgers,
+    img: '/images/places_to_eat/sams_burgers.webp',
   },
   {
     id: 'local-edition',
@@ -35,7 +33,7 @@ const restaurant_details = [
     description: 'The crafted drinks + live music = heaven on earth',
     neighborhood: 'SoMa',
     link: 'https://www.localeditionsf.com/',
-    img: local_edition,
+    img: '/images/places_to_eat/local_edition.png',
   }
 ]
 

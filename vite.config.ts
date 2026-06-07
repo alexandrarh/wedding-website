@@ -14,13 +14,4 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  optimizeDeps: {
-    include: [
-      'react',
-      'react-dom',
-      'react-router-dom',
-      'embla-carousel-react',
-      'embla-carousel-autoplay',
-    ]
-  }
 })

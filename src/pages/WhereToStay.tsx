@@ -8,7 +8,6 @@ import {
 } from "@/components/ui/breadcrumb"
 
 import Footer from "../components/Footer"
-import omni from "../assets/omni.webp"
 import HotelCards from "../components/HotelCards"
 
 export default function WhereToStay() {
@@ -58,7 +57,7 @@ export default function WhereToStay() {
             <div className="flex-1 w-full">
               <div className="overflow-hidden rounded-xl">
                 <img
-                  src={omni}
+                  src="/omni.webp"
                   alt="Where to Stay"
                   className="w-full aspect-[4/3] object-cover"
                 />

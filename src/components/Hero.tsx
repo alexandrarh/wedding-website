@@ -1,5 +1,3 @@
-import heroImg from "../assets/hero.webp"
-
 export default function Hero() {
   const handleScroll = () => {
     document.getElementById("info")?.scrollIntoView({ behavior: "smooth" })
@@ -11,7 +9,7 @@ export default function Hero() {
       className="relative h-screen w-full flex flex-col items-center justify-center text-center"
     >
       <img
-        src={heroImg}
+        src="/hero.webp"
         alt=""
         className="absolute inset-0 w-full h-full object-cover"
       />

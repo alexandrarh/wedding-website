@@ -1,42 +1,39 @@
-import omni from '../assets/omni.webp'
-// add neighborhoods_to_explore
-
 const neighborhoods = [
   {
     id: 'nob_hill',
     name: 'Nob Hill',
     desc: 'Alex\'s personal favorite (where she\'s based) with a great view of the city below!',
-    img: omni
+    img: '/omni.webp'
   },
   {
     id: 'japantown',
     name: 'Japantown',
     desc: 'Area desc',
-    img: omni
+    img: '/omni.webp'
   },
   {
     id: 'pac_heights',
     name: 'Pacific Heights',
     desc: 'Area desc',
-    img: omni
+    img: '/omni.webp'
   },
   {
     id: 'mission',
     name: 'Mission District',
     desc: 'Area desc',
-    img: omni
+    img: '/omni.webp'
   },
   {
     id: 'north_beach',
     name: 'North Beach',
     desc: 'Area desc',
-    img: omni
+    img: '/omni.webp'
   },
   {
     id: 'chinatown',
     name: 'Chinatown',
     desc: 'Area desc',
-    img: omni
+    img: '/omni.webp'
   }
 ]
 

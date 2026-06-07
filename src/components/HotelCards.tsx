@@ -1,5 +1,3 @@
-import omni from '../assets/omni.webp'  // Replace with where_to_stay
-
 const hotel_details = [
   {
     id: 'fairmont',
@@ -7,7 +5,7 @@ const hotel_details = [
     neighborhood: 'Nob Hill',
     price: '$$$',
     desc: 'Placed on the top of Mason and California Street, this exquisite hotel is home to great views and service',
-    img: omni,
+    img: '/omni.webp',
     hotel_link: 'https://www.fairmont.com/en/hotels/san-francisco/fairmont-san-francisco.html'
   },
   {
@@ -16,7 +14,7 @@ const hotel_details = [
     neighborhood: 'Financial District',
     price: '$$$',
     desc: 'Right in front of the Ferry Building and Embarcadero, Hyatt Regency has great connections to the coast and a great lobby',
-    img: omni,
+    img: '/omni.webp',
     hotel_link: 'https://www.hyatt.com/hyatt-regency/en-US/sfors-hyatt-regency-san-francisco'
   }
 ]
