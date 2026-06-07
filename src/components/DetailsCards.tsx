@@ -38,7 +38,7 @@ export default function DetailsCards() {
     >
       <p className="text-xl tracking-[0.25em] uppercase text-[var(--color-charcoal)]">Details</p>
       <p className="text-md text-[var(--color-warm-gray)]" style={{ fontFamily: 'var(--font-heading)' }}>
-        Some paragraph containing thanks and such for coming, and then some stuff about info below.
+        We're so excited to celebrate with you! Here are some details about the wedding and our recommendations for your stay in San Francisco, as well as information about the big day!
       </p>
       <br></br>
       {cards.map((card) => (

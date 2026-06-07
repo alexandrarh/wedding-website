@@ -8,29 +8,29 @@ import {
 } from "@/components/ui/breadcrumb"
 
 import Footer from "../components/Footer"
-import heroImg from "../assets/st_doms_cropped.webp"
-import sfView from "../assets/sf_view.webp"
+import st_doms from "../assets/st_doms_cropped.webp"
+import presidio from "../assets/presidio.webp"
 
 const venue_sections = [
   {
     id: 'ceremony-venue',
     title: 'Ceremony Venue',
     place_name: 'St. Dominic\'\s Catholic Church',
-    desc: 'Ceremony venue description',
-    button_link: 'https://maps.google.com',
+    desc: 'Nestled between Japantown and Pacific Heights, St. Dominic\'s Catholic Church is a beautiful and historic site for the wedding ceremony. Originally built in 1873, St. Dominic\'s serves as the first Catholic parish built for the Dominican Priory in San Francisco. Featuring Gothic architecture and stunning stained glass windows throughtout, its beauty compliments the intimacy of our ceremony.',
+    button_link: 'https://maps.app.goo.gl/k84phfCDDjHJ7BZB9',
     bg_color: 'var(--color-blush)',
     align: 'left',
-    photo: heroImg,
+    photo: st_doms,
   },
   {
     id: 'reception-venue',
     title: 'Reception Venue',
-    place_name: 'TBD',
-    desc: 'Reception venue description',
-    button_link: 'https://maps.google.com',
+    place_name: 'Presidio Officers\' Club',
+    desc: 'Located in the heart of Presidio Park, the Presidio Officers\' Club is a historic building that was once the social hub for military officers stationed at the Presidio. With its elegant Spanish revival architecture and beautiful surroundings, it provides a stunning backdrop for our reception. The venue features a spacious ballroom with large windows that offer breathtaking views of the Golden Gate Bridge and the San Francisco Bay, making it the perfect place to continue the celebrations!',
+    button_link: 'https://maps.app.goo.gl/CzqdQL11xX8f7u3n9',
     bg_color: 'var(--color-cream)',
     align: 'right',
-    photo: sfView,
+    photo: presidio,
   },
 ]
 
@@ -76,7 +76,7 @@ export default function Venue() {
               section.align === 'right' ? 'lg:flex-row-reverse' : 'lg:flex-row'
             } gap-12 items-center max-w-6xl mx-auto w-full`}
           >
-            <div className="flex flex-col gap-4 flex-1">
+            <div className="flex flex-col gap-4 flex-1 items-start">
               <p className="text-xs tracking-[0.25em] uppercase text-[var(--color-warm-gray)]">
                 {section.title}
               </p>

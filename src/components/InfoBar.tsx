@@ -15,7 +15,7 @@ export default function InfoBar() {
           className="text-lg text-[var(--color-charcoal)]"
           style={{ fontFamily: 'var(--font-heading)' }}
         >
-          & 7:00 PM (reception)
+          & 6:00 PM (reception)
         </p>
       </div>
 
@@ -40,13 +40,13 @@ export default function InfoBar() {
           className="text-lg text-[var(--color-charcoal)]"
           style={{ fontFamily: 'var(--font-heading)' }}
         >
-          Reception Venue
+          Presidio Officers' Club
         </p>
         <p
           className="text-sm text-[var(--color-warm-gray)]"
           style={{ fontFamily: 'var(--font-heading)' }}
-        ><a href="https://maps.app.goo.gl/cdWhgEDjY6vehQrj7" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-[var(--color-rose)] transition-colors">
-          2390 Bush St, San Francisco, CA 94115
+        ><a href="https://maps.app.goo.gl/5ybn3HbsTSHovxgYA" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-[var(--color-rose)] transition-colors">
+          50 Moraga Ave, San Francisco, CA 94129
         </a></p>
       </div>
 
