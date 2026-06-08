@@ -12,48 +12,48 @@ export default function SideNav() {
   const [visible, setVisible] = useState(false)
 
   useEffect(() => {
-    const observers: IntersectionObserver[] = []
+    const handleScroll = () => {
+      const windowHeight = window.innerHeight
 
-    const heroObserver = new IntersectionObserver(
-      ([entry]) => {
-        setVisible(!entry.isIntersecting)
-      },
-      { threshold: 0.3 }
-    )
+      // Hide when hero is visible
+      const heroEl = document.getElementById('hero')
+      if (heroEl) {
+        const heroBottom = heroEl.getBoundingClientRect().bottom
+        if (heroBottom > windowHeight * 0.5) {
+          setVisible(false)
+          return
+        }
+      }
 
-    const footerEl = document.getElementById('footer')
-    if (footerEl) {
-      const footerObserver = new IntersectionObserver(
-        ([entry]) => {
-          if (entry.isIntersecting) setVisible(false)
-          else if (!document.getElementById('hero')?.getBoundingClientRect().top === false) {
-            setVisible(true)
-          }
-        },
-        { threshold: 0.1 }
-      )
-      footerObserver.observe(footerEl)
-      observers.push(footerObserver)
-    }
+      // Hide when footer is visible
+      const footerEl = document.getElementById('footer')
+      if (footerEl) {
+        const footerTop = footerEl.getBoundingClientRect().top
+        if (footerTop < windowHeight * 0.5) {
+          setVisible(false)
+          return
+        }
+      }
 
-    const heroEl = document.getElementById('hero')
-    if (heroEl) heroObserver.observe(heroEl)
-    observers.push(heroObserver)
+      // Find which section we've scrolled past most recently
+      let current = ''
+      sections.forEach(({ id }) => {
+        const el = document.getElementById(id)
+        if (!el) return
+        const top = el.getBoundingClientRect().top
+        if (top < windowHeight * 0.6) {
+          current = id
+        }
+      })
 
-    sections.forEach(({ id }) => {
-      const el = document.getElementById(id)
-      if (!el) return
-      const observer = new IntersectionObserver(
-        ([entry]) => {
-          if (entry.isIntersecting) setActiveSection(id)
-        },
-        { threshold: 0.5 }
-      )
-      observer.observe(el)
-      observers.push(observer)
-    })
+      if (current && current !== 'hero') {
+        setVisible(true)
+        setActiveSection(current)
+      }
+    } // ← this was missing
 
-    return () => observers.forEach((o) => o.disconnect())
+    window.addEventListener('scroll', handleScroll, { passive: true })
+    return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
   const scrollTo = (id: string) => {

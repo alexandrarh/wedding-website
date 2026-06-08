@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Venue from './pages/Venue'
+import Itinerary from './pages/Itinerary'
 import WhereToStay from './pages/WhereToStay'
 import ThingsToDo from './pages/ThingsToDo'
 import Faq from './pages/Faq'
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/venue" element={<Venue />} />
+        <Route path="/itinerary" element={<Itinerary />} />
         <Route path="/where-to-stay" element={<WhereToStay />} />
         <Route path="/things-to-do" element={<ThingsToDo />} />
         <Route path="/faq" element={<Faq />} />

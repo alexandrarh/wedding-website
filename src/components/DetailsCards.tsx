@@ -9,6 +9,13 @@ const cards = [
     cta: 'Learn More',
   },
   {
+    title: 'The Itinerary',
+    description: 'The wedding weekend will be stacked with events! Check out the itinerary to see what we planned.',
+    link: '/itinerary',
+    image: '/sf-2.webp',
+    cta: 'View Itinerary',
+  },
+  {
     title: 'Where to Stay',
     description: 'If you\'re spending more than a day in the city, check out some of our recommended hotels and accommodations to make the most of your time in San Francisco.',
     link: '/where-to-stay',

@@ -33,6 +33,10 @@ export default function WhereToStay() {
               </BreadcrumbItem>
               <BreadcrumbSeparator />
               <BreadcrumbItem>
+                <BreadcrumbLink href="/itinerary">Itinerary</BreadcrumbLink>
+              </BreadcrumbItem>
+              <BreadcrumbSeparator />
+              <BreadcrumbItem>
                 <BreadcrumbLink href="/where-to-stay">Where to Stay</BreadcrumbLink>
               </BreadcrumbItem>
               <BreadcrumbSeparator />
