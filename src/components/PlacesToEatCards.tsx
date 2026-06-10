@@ -3,7 +3,7 @@ const restaurant_details = [
     id: 'sweet-maple',
     restaurant_name: 'Sweet Maple',
     food_type: 'Brunch',
-    description: 'Our top brunch spot with an Asian fusion twist',
+    description: 'Our top brunch spot with an Asian fusion twist!',
     neighborhood: 'Japantown',
     link: 'https://www.sweetmaplesf.com/menu-san-francisco',
     img: '/images/places_to_eat/sweet_maple.webp',
@@ -12,7 +12,7 @@ const restaurant_details = [
     id: 'zy-peking',
     restaurant_name: 'Z & Y Peking Duck',
     food_type: 'Chinese',
-    description: 'Great dim sum place, but even better Peking duck',
+    description: 'Great dim sum place, but even better Peking duck.',
     neighborhood: 'Chinatown',
     link: 'https://zandypekingduck.com/',
     img: '/images/places_to_eat/zy_peking.webp',
@@ -21,7 +21,7 @@ const restaurant_details = [
     id: 'sams',
     restaurant_name: "Sam's Pizza & Burgers",
     food_type: 'Burgers',
-    description: 'Anthony Bourdain ate here once, and he never lied',
+    description: 'Anthony Bourdain ate here once, and he never lied.',
     neighborhood: 'North Beach',
     link: 'https://www.samsburgers.com/',
     img: '/images/places_to_eat/sams_burgers.webp',
@@ -30,7 +30,7 @@ const restaurant_details = [
     id: 'local-edition',
     restaurant_name: 'Local Edition',
     food_type: 'Cocktails',
-    description: 'The crafted drinks + live music = heaven on earth',
+    description: 'The crafted drinks + live music = heaven on earth!',
     neighborhood: 'SoMa',
     link: 'https://www.localeditionsf.com/',
     img: '/images/places_to_eat/local_edition.png',
@@ -39,7 +39,7 @@ const restaurant_details = [
     id: 'warakubune',
     restaurant_name: 'Warakubune',
     food_type: 'Sushi',
-    description: 'The better conveyor belt sushi place (sorry not sorry to Kura)',
+    description: 'The better conveyor belt sushi place (sorry not sorry to Kura)...',
     neighborhood: 'Castro',
     link: 'https://www.yelp.com/biz/warakubune-sushi-san-francisco?start=100',
     img: '/images/places_to_eat/warakubune_transparent.webp',
@@ -48,7 +48,7 @@ const restaurant_details = [
     id: 'trattoria-contadina',
     restaurant_name: 'Trattoria Contadina',
     food_type: 'Italian',
-    description: 'Good and comforting Italian food, perfect for eating with a big group, or by yourself...with a glass of wine',
+    description: 'Good and comforting Italian food, perfect for eating with a big group, or by yourself...with a glass of wine.',
     neighborhood: 'North Beach',
     link: 'https://www.trattoriacontadina.com/',
     img: '/images/places_to_eat/trattoria.webp',
@@ -57,7 +57,7 @@ const restaurant_details = [
     id: 'parachute',
     restaurant_name: 'Parachute',
     food_type: 'Bakery',
-    description: 'Great coffee, even greater croissants. Also on the Embarcadero, so you can get a nice view of the Bay while you eat',
+    description: 'Great coffee, even greater croissants. Also on the Embarcadero, so you can get a nice view of the Bay while you eat!',
     neighborhood: 'Embarcadero',
     link: 'https://www.parachutebakery.com/',
     img: '/images/places_to_eat/parachute.webp',
@@ -66,10 +66,28 @@ const restaurant_details = [
     id: 'bar-crudo',
     restaurant_name: 'Bar Crudo',
     food_type: 'Seafood',
-    description: 'They have really good oysters here, and the chowder is great. Perfect for a cozy lunch or dinner',
+    description: 'They have really good oysters here, and the chowder is great. Perfect for a cozy lunch or dinner.',
     neighborhood: 'Divisadero',
     link: 'https://www.barcrudo.com/',
     img: '/images/places_to_eat/bar_crudo.webp',
+  },
+  {
+    id: 'blind-butcher',
+    restaurant_name: 'Blind Butcher',
+    food_type: 'Steak',
+    description: 'As Joe McNulty once said, "[They] make the best desserts." He was not wrong here!',
+    neighborhood: 'Castro',
+    link: 'https://www.blindbutcher.com/',
+    img: '/images/places_to_eat/blind_butcher.webp',
+  },
+  {
+    id: 'beit-rima',
+    restaurant_name: 'Beit Rima',
+    food_type: 'Arab',
+    description: 'The hummus here is so good, and it\'s a great spot for a hearty meal, which you\'ll need after all the walking you\'ll probably be doing. Highly recommend you go to the location on Carl St.',
+    neighborhood: 'Cole Valley',
+    link: 'http://beitrimasf.com/',
+    img: '/images/places_to_eat/beit_rima.webp',
   }
 ]
 
@@ -81,7 +99,7 @@ export default function PlacesToEatCards() {
       style={{ backgroundColor: 'var(--color-blush)' }}
     >
       <p className="text-3xl text-[var(--color-charcoal)]">
-        Our recommended eats (and drinks)
+        Our recommended eats
       </p>
       <p
         className="pb-8 text-lg text-[var(--color-charcoal)]"

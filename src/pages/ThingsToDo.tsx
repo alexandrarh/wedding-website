@@ -65,7 +65,7 @@ export default function WhereToStay() {
             <div className="flex-1 w-full">
               <div className="overflow-hidden rounded-xl">
                 <img
-                  src="/omni.webp"
+                  src="/sf_view.webp"
                   alt="Where to Stay"
                   className="w-full aspect-[4/3] object-cover"
                 />

@@ -67,6 +67,12 @@ const faq_section: { id: string; question: string; answer: ReactNode }[] = [
     answer:
       "There is a parking lot, as well as ample street parking, in front and by St. Dominic's. In the Presidio Officers' Club, there's ample parking in front of the building.",
   },
+  {
+    id: '7',
+    question: "Who\'s the cat in your favicon?",
+    answer:
+      "That\'s our cat, Peach! She\'s a talkative orange tabby who loves pets, foods, cuddles, and zoomies. Though she won\'t be present at the wedding, she says to all of you, \"MROW!\"",
+  },
 ]
 
 export default function DetailsCards() {

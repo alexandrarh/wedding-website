@@ -35,12 +35,18 @@ const neighborhoods = [
     desc: 'Iconic and touristy, but still a fun place to explore and get some food. Check out Good Mong Kok Bakery for some tasty egg tarts!',
     img: '/images/neighborhoods_to_explore/chinatown.webp'
   },
-   {
+  {
     id: 'hayes_valley',
     name: 'Hayes Valley',
     desc: 'Up and coming neighborhood with a great vibe and some great shops and restaurants!',
     img: '/images/neighborhoods_to_explore/hayes_valley.webp'
-  }
+  },
+  {
+    id: 'castro',
+    name: 'Castro',
+    desc: 'Known for its vibrant LGBTQ+ culture and historic significance, the Castro is a great place to explore and experience! Also it\'s home to Blind Butcher, one of our favorite steak places.',
+    img: '/images/neighborhoods_to_explore/castro.webp'
+  },
 ]
 
 export default function NeighborhoodsToExplore() {
