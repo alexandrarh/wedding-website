@@ -4,40 +4,48 @@ const spots_details = [
     name: 'City Lights Bookstore',
     neighborhood: 'Little Italy',
     desc: 'Where both of us like to get our books from!',
-    img: '/omni.webp',
-    place_link:''
+    img: '/images/spots_to_see/city_lights.webp',
+    place_link:'https://maps.app.goo.gl/NTPesuyrjQtnEUKu6'
   },
   {
     id: 'fort_mason_park',
     name: 'Fort Mason Park',
     neighborhood: 'Fort Mason',
-    desc: 'The views from this park make us feel inspired honestly. The nature is too good',
-    img: '/omni.webp',
-    place_link:''
+    desc: 'The views from this park make us feel inspired honestly. The nature is too good tbh...',
+    img: '/images/spots_to_see/fort_mason.webp',
+    place_link:'https://maps.app.goo.gl/UEqKrUQTqD8zsH6P8'
   },
   {
     id: 'deyoung',
     name: 'DeYoung Museum',
     neighborhood: 'Golden Gate Park',
-    desc: 'A good contemporary art museum with a lot of revolving exhibits!',
-    img: '/omni.webp',
-    place_link:''
+    desc: 'A good contemporary art museum with a lot of revolving exhibits, nestled right in Golden Gate Park!',
+    img: '/images/spots_to_see/deyoung.webp',
+    place_link:'https://maps.app.goo.gl/dQ9aM7h5bmmcurnp6'
   },
   {
     id: 'ferry_building',
     name: 'Ferry Building',
     neighborhood: 'Embarcadero',
     desc: 'Has super cute shops and eateries; I highly recommend you check out Nopa Fish for some seafood chowder!',
-    img: '/omni.webp',
-    place_link:''
+    img: '/images/spots_to_see/ferry_building.webp',
+    place_link:'https://maps.app.goo.gl/hR4KmaDiTXcCoaaY7'
   },
   {
     id: 'exploratorium',
     name: 'Exploratorium',
     neighborhood: 'Embarcadero',
-    desc: 'A cool interactive exhibit, great for the kids and adults',
-    img: '/omni.webp',
-    place_link:''
+    desc: 'A cool interactive exhibit, great for the kids and adults alike.',
+    img: '/images/spots_to_see/exploratorium.webp',
+    place_link:'https://maps.app.goo.gl/kihnwAXj4de73944A'
+  },
+  {
+    id: 'coit_tower',
+    name: 'Coit Tower',
+    neighborhood: 'North Beach',
+    desc: 'Tall tower on top of Telegraph Hill. Can see all of San Francisco from the top!',
+    img: '/images/spots_to_see/coit_tower.webp',
+    place_link:'https://maps.app.goo.gl/D6sxYtaEFEdoXNCq5'
   }
 ]
 

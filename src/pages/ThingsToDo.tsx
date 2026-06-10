@@ -58,7 +58,7 @@ export default function WhereToStay() {
                 className="text-md text-[var(--color-warm-gray)]"
                 style={{ fontFamily: 'var(--font-sans)' }}
               >
-                Something about what to do in the city.
+                While you're in town, there are a ton of fun things to do, eat, and see! Below are some of our recommenations for places to go while you're in beautiful San Francisco.
               </p>
             </div>
 

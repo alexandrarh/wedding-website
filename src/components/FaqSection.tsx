@@ -6,7 +6,7 @@ const faq_section: { id: string; question: string; answer: ReactNode }[] = [
     question: 'Where do I RSVP?',
     answer: (
       <span>
-        You should either mail your RSVP to [address], or complete it via{' '}
+        You can either mail your RSVP to the return address listed on the invitation, or complete it via{' '}
         <a
           href="https://rsvp.alexandseamus2027.com"
           target="_blank"
@@ -15,7 +15,7 @@ const faq_section: { id: string; question: string; answer: ReactNode }[] = [
         >
           rsvp.alexandseamus2027.com
         </a>
-        . Please RSVP by [date] so we can get an accurate headcount. If you have
+        . Please RSVP by <b>[date]</b> so we can get an accurate headcount. If you have
         any questions about RSVPing, please reach out to us at{' '}
         <a
           href="mailto:info@alexandseamus2027.com"
