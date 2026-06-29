@@ -54,7 +54,7 @@ export default function WhereToStay() {
                 className="text-md text-[var(--color-warm-gray)]"
                 style={{ fontFamily: 'var(--font-sans)' }}
               >
-                For our out-of-town guests, we recommend staying at one of the hotels below, as we have room blocks offered at each. 
+                For our out-of-town guests, we recommend staying at one of the hotels below, as we have room blocks offered at these places. 
                 <br/><br/>
                 If you have any questions about the accommodations, please reach out to <a href="mailto:info@alexandseamus2027.com" className="text-[var(--color-rose)]">info@alexandseamus2027.com</a>.
               </p>

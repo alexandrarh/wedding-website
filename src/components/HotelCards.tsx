@@ -4,18 +4,18 @@ const hotel_details = [
     hotel_name: 'Fairmont Hotel',
     neighborhood: 'Nob Hill',
     price: '$$$',
-    desc: 'Placed on the top of Mason and California Street, this exquisite hotel is home to great views and service',
-    img: '/omni.webp',
+    desc: 'Placed on the top of Mason and California Street, this beautiful hotel is home to great views of the Bay and east side of the city. It\'s also where Tony Bennett performed his namesake song "I Left My Heart in San Francisco" in 1961.',
+    img: 'images/where_to_stay/fairmont.webp',
     hotel_link: 'https://www.fairmont.com/en/hotels/san-francisco/fairmont-san-francisco.html'
   },
   {
-    id: 'hyatt_regency_fidi',
-    hotel_name: 'Hyatt Regency San Francisco',
-    neighborhood: 'Financial District',
-    price: '$$$',
-    desc: 'Right in front of the Ferry Building and Embarcadero, Hyatt Regency has great connections to the coast and a great lobby',
-    img: '/omni.webp',
-    hotel_link: 'https://www.hyatt.com/hyatt-regency/en-US/sfors-hyatt-regency-san-francisco'
+    id: 'marriot_fishermans',
+    hotel_name: 'Marriot Fishermans Wharf',
+    neighborhood: 'Fishermans Wharf',
+    price: '$$',
+    desc: 'Right in the heart of Fisherman\'s Wharf, the Marriot is a great option for those who want to be close to Pier 39 and all of its good eats and attractions (seals included)!',
+    img: 'images/where_to_stay/marriot_fishermans.webp',
+    hotel_link: 'https://www.marriott.com/en-us/hotels/sfofw-san-francisco-marriott-fishermans-wharf/overview/'
   }
 ]
 
