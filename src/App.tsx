@@ -5,6 +5,7 @@ import Itinerary from './pages/Itinerary'
 import WhereToStay from './pages/WhereToStay'
 import ThingsToDo from './pages/ThingsToDo'
 import Faq from './pages/Faq'
+import Registry from './pages/Registry'
 import ScrollToTop from './components/ScrollToTop'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/where-to-stay" element={<WhereToStay />} />
         <Route path="/things-to-do" element={<ThingsToDo />} />
         <Route path="/faq" element={<Faq />} />
+        <Route path="/registry" element={<Registry />} />
       </Routes>
     </BrowserRouter>
   )

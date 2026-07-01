@@ -7,7 +7,7 @@ const page_links = [
   },
   {
     title: 'Registry',
-    link: 'https://www.williams-sonoma.com/registry/t2gzhtqbgl/registry-list.html',
+    link: '/registry',
   },
   {
     title: 'FAQ',
