@@ -48,7 +48,7 @@ export default function WhereToStay() {
                 className="text-5xl text-[var(--color-charcoal)]"
                 style={{ fontFamily: 'var(--font-heading)' }}
               >
-                Where to Stay
+                where to stay
               </h1>
               <p
                 className="text-md text-[var(--color-warm-gray)]"

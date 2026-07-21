@@ -13,7 +13,7 @@ const venue_sections = [
   {
     id: 'ceremony-venue',
     title: 'Ceremony Venue',
-    place_name: 'St. Dominic\'\s Catholic Church',
+    place_name: 'st. dominic\'\s catholic church',
     desc: 'Nestled between Japantown and Pacific Heights, St. Dominic\'s Catholic Church is a beautiful and historic site for the wedding ceremony. Originally built in 1873, St. Dominic\'s serves as the first Catholic parish built for the Dominican Priory in San Francisco. Featuring Gothic architecture and stunning stained glass windows throughtout, its beauty compliments the intimacy of our ceremony.',
     button_link: 'https://maps.app.goo.gl/k84phfCDDjHJ7BZB9',
     bg_color: 'var(--color-blush)',
@@ -23,7 +23,7 @@ const venue_sections = [
   {
     id: 'reception-venue',
     title: 'Reception Venue',
-    place_name: 'Presidio Officer\'\s Club',
+    place_name: 'presidio officer\'\s club',
     desc: 'Located in the heart of Presidio Park, the Presidio Officers\'s Club is a historic building that was once the social hub for military officers stationed at the Presidio. With its elegant Spanish revival architecture and beautiful surroundings, it provides a stunning backdrop for our reception. The venue features a spacious ballroom with large windows that offer breathtaking views of the Golden Gate Bridge and the San Francisco Bay, making it the perfect place to continue the celebrations!',
     button_link: 'https://maps.app.goo.gl/CzqdQL11xX8f7u3n9',
     bg_color: 'var(--color-cream)',

@@ -2,15 +2,15 @@ import { useNavigate } from 'react-router-dom'
 
 const page_links = [
   {
-    title: 'Home',
+    title: 'home',
     link: '/',
   },
   {
-    title: 'Registry',
+    title: 'registry',
     link: '/registry',
   },
   {
-    title: 'FAQ',
+    title: 'faq',
     link: '/faq',
   },
 ]
@@ -32,15 +32,17 @@ export default function Footer() {
   return (
     <section
       id="footer"
-      className="pt-12 pb-10 px-6 flex flex-col items-center"
+      className="pt-4 pb-10 px-6 flex flex-col items-center"
       style={{ backgroundColor: 'var(--color-rose)' }}
     >
-      <h2
+      {/* <h2
         className="text-2xl text-[var(--color-cream)] pb-4"
         style={{ fontFamily: 'var(--font-script)' }}
       >
         Alexandra <span style={{ color: 'var(--color-charcoal)' }}>&</span> Seamus
-      </h2>
+      </h2> */}
+
+      <img src="/logo-2.webp" alt="Logo" className="w-32 h-32 object-contain" />
 
       {page_links.map((item) => (
         <p

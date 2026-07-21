@@ -3,7 +3,7 @@ import React from 'react'
 const itinerary_events = [
   {
     id: 'welcome_party',
-    name: 'Welcome Party',
+    name: 'welcome party',
     location: 'TBD',
     event_time: 'Friday, September 20th, 2024 at 6:00 PM',
     desc: "We'll be kicking off the wedding weekend with a welcome party! Join us for some drinks and light bites as we get ready for the big day.",
@@ -12,7 +12,7 @@ const itinerary_events = [
   },
   {
     id: 'wedding_ceremony',
-    name: 'Wedding Ceremony',
+    name: 'wedding ceremony',
     location: "St. Dominic's Catholic Church",
     event_time: 'Saturday, June 5, 2027 at 3:00 PM',
     desc: "The main event! We can't wait to celebrate our love with you all at this beautiful church in the heart of San Francisco.",
@@ -21,7 +21,7 @@ const itinerary_events = [
   },
   {
     id: 'reception',
-    name: 'Reception',
+    name: 'reception',
     location: "Presidio Officers' Club",
     event_time: 'Saturday, June 5, 2027 at 6:00 PM',
     desc: "Join us for the reception as we celebrate with food, drinks, and dancing! We'll be partying the night away in this beautiful area with stunning views of San Francisco Bay.",
@@ -41,7 +41,7 @@ export default function ItineraryCards() {
         className="pt-5 pb-4 text-5xl text-[var(--color-charcoal)]"
         style={{ fontFamily: 'var(--font-heading)' }}
       >
-        Our Itinerary
+        our itinerary
       </p>
       <p
         className="pb-8 text-md text-[var(--color-warm-gray)]"

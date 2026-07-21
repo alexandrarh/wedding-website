@@ -1,7 +1,7 @@
 const spots_details = [
   {
     id: 'city_lights',
-    name: 'City Lights Bookstore',
+    name: 'city lights bookstore',
     neighborhood: 'Little Italy',
     desc: 'Where both of us like to get our books from!',
     img: '/images/spots_to_see/city_lights.webp',
@@ -9,7 +9,7 @@ const spots_details = [
   },
   {
     id: 'fort_mason_park',
-    name: 'Fort Mason Park',
+    name: 'fort mason park',
     neighborhood: 'Fort Mason',
     desc: 'The views from this park make us feel inspired honestly. The nature is too good tbh...',
     img: '/images/spots_to_see/fort_mason.webp',
@@ -17,7 +17,7 @@ const spots_details = [
   },
   {
     id: 'deyoung',
-    name: 'DeYoung Museum',
+    name: 'deyoung museum',
     neighborhood: 'Golden Gate Park',
     desc: 'A good contemporary art museum with a lot of revolving exhibits, nestled right in Golden Gate Park!',
     img: '/images/spots_to_see/deyoung.webp',
@@ -25,7 +25,7 @@ const spots_details = [
   },
   {
     id: 'ferry_building',
-    name: 'Ferry Building',
+    name: 'ferry building',
     neighborhood: 'Embarcadero',
     desc: 'Has super cute shops and eateries; I highly recommend you check out Nopa Fish for some seafood chowder!',
     img: '/images/spots_to_see/ferry_building.webp',
@@ -33,7 +33,7 @@ const spots_details = [
   },
   {
     id: 'exploratorium',
-    name: 'Exploratorium',
+    name: 'exploratorium',
     neighborhood: 'Embarcadero',
     desc: 'A cool interactive exhibit, great for the kids and adults alike.',
     img: '/images/spots_to_see/exploratorium.webp',
@@ -41,7 +41,7 @@ const spots_details = [
   },
   {
     id: 'coit_tower',
-    name: 'Coit Tower',
+    name: 'coit tower',
     neighborhood: 'North Beach',
     desc: 'Tall tower on top of Telegraph Hill. Can see all of San Francisco from the top!',
     img: '/images/spots_to_see/coit_tower.webp',

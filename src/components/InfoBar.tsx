@@ -2,30 +2,30 @@ export default function InfoBar() {
   return (
     <section id="info" className="grid grid-cols-3 border-b border-[var(--color-warm-gray)]/20">
       <div className="flex flex-col items-center justify-center py-8 px-4 text-center border-r border-[var(--color-warm-gray)]/30">
-        <p className="text-xs tracking-[0.25em] uppercase text-[var(--color-warm-gray)] mb-2">
+        <p className="text-md tracking-[0.25em] text-[var(--color-warm-gray)] mb-2" style={{ fontFamily: 'var(--font-heading)' }}>
           Date & Time
         </p>
         <p
-          className="text-lg text-[var(--color-charcoal)]"
-          style={{ fontFamily: 'var(--font-heading)' }}
+          className="text-sm text-[var(--color-charcoal)]"
+          style={{ fontFamily: 'var(--font-serif)' }}
         >
           June 5, 2027 @ 3:00 PM (ceremony)
         </p>
         <p
-          className="text-lg text-[var(--color-charcoal)]"
-          style={{ fontFamily: 'var(--font-heading)' }}
+          className="text-sm text-[var(--color-charcoal)]"
+          style={{ fontFamily: 'var(--font-serif)' }}
         >
           & 6:00 PM (reception)
         </p>
       </div>
 
       <div className="flex flex-col items-center justify-center py-8 px-4 text-center border-r border-[var(--color-warm-gray)]/30">
-        <p className="text-xs tracking-[0.25em] uppercase text-[var(--color-warm-gray)] mb-2">
+        <p className="text-md tracking-[0.25em] text-[var(--color-warm-gray)] mb-2" style={{ fontFamily: 'var(--font-heading)' }}>
           Location
         </p>
         <p
-          className="text-lg text-[var(--color-charcoal)]"
-          style={{ fontFamily: 'var(--font-heading)' }}
+          className="text-sm text-[var(--color-charcoal)]"
+          style={{ fontFamily: 'var(--font-serif)' }}
         >
           St. Dominic's Catholic Church
         </p>
@@ -37,8 +37,8 @@ export default function InfoBar() {
         </a></p>
         <br></br>
         <p
-          className="text-lg text-[var(--color-charcoal)]"
-          style={{ fontFamily: 'var(--font-heading)' }}
+          className="text-sm text-[var(--color-charcoal)]"
+          style={{ fontFamily: 'var(--font-serif)' }}
         >
           Presidio Officers' Club
         </p>
@@ -51,12 +51,12 @@ export default function InfoBar() {
       </div>
 
       <div className="flex flex-col items-center justify-center py-8 px-4 text-center">
-        <p className="text-xs tracking-[0.25em] uppercase text-[var(--color-warm-gray)] mb-2">
+        <p className="text-md tracking-[0.25em] text-[var(--color-warm-gray)] mb-2" style={{ fontFamily: 'var(--font-heading)' }}>
           Attire
         </p>
         <p
-          className="text-lg text-[var(--color-charcoal)]"
-          style={{ fontFamily: 'var(--font-heading)' }}
+          className="text-sm text-[var(--color-charcoal)]"
+          style={{ fontFamily: 'var(--font-serif)' }}
         >
           Black-tie
         </p>

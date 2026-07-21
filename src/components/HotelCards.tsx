@@ -1,7 +1,7 @@
 const hotel_details = [
   {
     id: 'fairmont',
-    hotel_name: 'Fairmont Hotel',
+    hotel_name: 'fairmont hotel',
     neighborhood: 'Nob Hill',
     price: '$$$',
     desc: 'Placed on the top of Mason and California Street, this beautiful hotel is home to great views of the Bay and east side of the city. It\'s also where Tony Bennett performed his namesake song "I Left My Heart in San Francisco" in 1961.',
@@ -10,7 +10,7 @@ const hotel_details = [
   },
   {
     id: 'marriot_fishermans',
-    hotel_name: 'Marriot Fishermans Wharf',
+    hotel_name: 'marriot fishermans wharf',
     neighborhood: 'Fishermans Wharf',
     price: '$$',
     desc: 'Right in the heart of Fisherman\'s Wharf, the Marriot is a great option for those who want to be close to Pier 39 and all of its good eats and attractions (seals included)!',
