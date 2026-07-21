@@ -84,7 +84,7 @@ export default function NeighborhoodsToExplore() {
               style={{ filter: 'drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.1))' }}
             />
 
-            <p className="text-s text-[var(--color-warm-gray)] leading-relaxed italic" style={{ fontFamily: 'var(--font-heading)' }}>
+            <p className="text-s text-[var(--color-warm-gray)] leading-relaxed italic" style={{ fontFamily: 'var(--font-italic)', fontVariantLigatures: 'none' }}>
               {neighborhood.desc}
             </p>
 

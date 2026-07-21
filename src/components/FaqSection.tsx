@@ -89,8 +89,8 @@ export default function DetailsCards() {
         Frequently Asked Questions
       </h1>
       <p
-        className="text-lg text-[var(--color-warm-gray)]"
-        style={{ fontFamily: 'var(--font-heading)' }}
+        className="text-md text-[var(--color-warm-gray)]"
+        style={{ fontFamily: 'var(--font-serif)', fontVariantLigatures: 'none' }}
       >
         Got some questions that may need answering? Find them below!
       </p>
@@ -100,14 +100,14 @@ export default function DetailsCards() {
       {faq_section.map((faq) => (
         <div key={faq.id} className="w-full max-w-4xl flex flex-col gap-2">
           <h2
-            className="text-3xl text-[var(--color-charcoal)]"
-            style={{ fontFamily: 'var(--font-heading)' }}
+            className="text-2xl text-[var(--color-charcoal)]"
+            style={{ fontFamily: 'var(--font-serif)' }}
           >
             {faq.question}
           </h2>
           <p
-            className="pb-6 text-lg text-[var(--color-warm-gray)]"
-            style={{ fontFamily: 'var(--font-heading)' }}
+            className="pb-6 text-md text-[var(--color-warm-gray)]"
+            style={{ fontFamily: 'var(--font-italic)', fontVariantLigatures: 'none' }}
           >
             {faq.answer}
           </p>

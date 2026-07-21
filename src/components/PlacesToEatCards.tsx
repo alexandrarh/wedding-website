@@ -102,8 +102,8 @@ export default function PlacesToEatCards() {
         Our recommended eats
       </p>
       <p
-        className="pb-8 text-lg text-[var(--color-charcoal)]"
-        style={{ fontFamily: 'var(--font-heading)' }}
+        className="pb-8 text-md text-[var(--color-warm-gray)]"
+        style={{ fontFamily: 'var(--font-serif)', fontVariantLigatures: 'none' }}
       >
         In need of some grub recommendations in the city? Look no further than this guide. Source: trust us.
       </p>
@@ -130,7 +130,7 @@ export default function PlacesToEatCards() {
               {restaurant.restaurant_name} &nbsp;|&nbsp; {restaurant.neighborhood}
             </p>
 
-            <p className="text-s text-[var(--color-warm-gray)] leading-relaxed italic" style={{ fontFamily: 'var(--font-heading)' }}>
+            <p className="text-s text-[var(--color-warm-gray)] leading-relaxed" style={{ fontFamily: 'var(--font-italic)', fontVariantLigatures: 'none' }}>
               {restaurant.description}
             </p>
 

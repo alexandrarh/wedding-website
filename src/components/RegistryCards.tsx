@@ -24,7 +24,7 @@ export default function RegistryCards() {
                 Our registries
             </p>
             <p
-                className="pb-8 text-sm text-[var(--color-warm-gray)]"
+                className="pb-8 px-4 text-lg text-[var(--color-warm-gray)]"
             >
                 Thank you so much for thinking of us!! We're already so grateful for your love and support. If you would like to give us a gift, we have a few registries below set up!
             </p>
