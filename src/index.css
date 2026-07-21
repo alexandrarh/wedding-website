@@ -2,16 +2,60 @@
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 @import "@fontsource-variable/figtree";
-@import "@fontsource-variable/cormorant-garamond";
-@import "@fontsource/jost";
-@import "@fontsource/alex-brush";
+
 
 @custom-variant dark (&:is(.dark *));
 
+@font-face {
+  font-family: 'Antura Script';
+  src: url('/fonts/antura-script.regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mrs Eaves';
+  src: url('/fonts/mrs-eaves-roman.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mrs Eaves Italic';
+  src: url('/fonts/mrs-eaves-italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Mrs Eaves Petite Caps';
+  src: url('/fonts/mrs-eaves-petite-caps-regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-variant-ligatures: none;
+}
+
+@font-face {
+  font-family: 'Mrs Eaves Small Caps';
+  src: url('/fonts/mrs-eaves-small-caps-roman.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-variant-ligatures: none;
+}
+
+@font-face {
+  font-family: 'New Icon Script';
+  src: url('/fonts/New-Icon-Script.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @theme inline {
-    --font-heading: 'Cormorant Garamond Variable', serif;
-    --font-sans: 'Jost', sans-serif;
-    --font-script: 'Alex Brush', cursive;
+    --font-heading: 'Mrs Eaves Small Caps', serif;
+    --font-sans: 'Mrs Eaves', serif;
+    --font-script: 'Antura Script', cursive;
+    --font-icon: 'New Icon Script', cursive;
+    --font-italic: 'Mrs Eaves Italic', italic;
     --color-sidebar-ring: var(--sidebar-ring);
     --color-sidebar-border: var(--sidebar-border);
     --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);

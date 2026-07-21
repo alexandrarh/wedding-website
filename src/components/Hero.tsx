@@ -21,7 +21,7 @@ export default function Hero() {
         </p>
 
         <h1
-          className="text-7xl text-white"
+          className="text-6xl text-white pt-10 pb-10"
           style={{ fontFamily: 'var(--font-script)' }}
         >
           Alexandra <span style={{ color: 'var(--color-rose)' }}>&</span> Seamus
@@ -29,9 +29,9 @@ export default function Hero() {
 
         <p
           className="text-sm tracking-[0.2em] uppercase text-white/80 mt-1"
-          style={{ fontFamily: 'var(--font-heading)' }}
+          style={{ fontFamily: 'var(--font-heading)', fontVariantLigatures: 'none' }}
         >
-          June 5, 2027 &nbsp;·&nbsp; San Francisco, CA
+          June 5, 2027 &nbsp;&mdash;&nbsp; San Francisco, CA
         </p>
 
         <div className="w-8 h-px bg-white/50 mt-2" />

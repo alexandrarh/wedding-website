@@ -23,8 +23,8 @@ const venue_sections = [
   {
     id: 'reception-venue',
     title: 'Reception Venue',
-    place_name: 'Presidio Officers\' Club',
-    desc: 'Located in the heart of Presidio Park, the Presidio Officers\' Club is a historic building that was once the social hub for military officers stationed at the Presidio. With its elegant Spanish revival architecture and beautiful surroundings, it provides a stunning backdrop for our reception. The venue features a spacious ballroom with large windows that offer breathtaking views of the Golden Gate Bridge and the San Francisco Bay, making it the perfect place to continue the celebrations!',
+    place_name: 'Presidio Officer\'\s Club',
+    desc: 'Located in the heart of Presidio Park, the Presidio Officers\'s Club is a historic building that was once the social hub for military officers stationed at the Presidio. With its elegant Spanish revival architecture and beautiful surroundings, it provides a stunning backdrop for our reception. The venue features a spacious ballroom with large windows that offer breathtaking views of the Golden Gate Bridge and the San Francisco Bay, making it the perfect place to continue the celebrations!',
     button_link: 'https://maps.app.goo.gl/CzqdQL11xX8f7u3n9',
     bg_color: 'var(--color-cream)',
     align: 'right',
@@ -84,7 +84,7 @@ export default function Venue() {
               </p>
               <h2
                 className="text-4xl text-[var(--color-charcoal)]"
-                style={{ fontFamily: 'var(--font-heading)' }}
+                style={{ fontFamily: 'var(--font-heading)', fontVariantLigatures: 'none' }}
               >
                 {section.place_name}
               </h2>

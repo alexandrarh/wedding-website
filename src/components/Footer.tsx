@@ -36,7 +36,7 @@ export default function Footer() {
       style={{ backgroundColor: 'var(--color-rose)' }}
     >
       <h2
-        className="text-4xl text-[var(--color-cream)]"
+        className="text-2xl text-[var(--color-cream)] pb-4"
         style={{ fontFamily: 'var(--font-script)' }}
       >
         Alexandra <span style={{ color: 'var(--color-charcoal)' }}>&</span> Seamus
@@ -46,7 +46,7 @@ export default function Footer() {
         <p
           key={item.link}
           className="text-2xl text-[var(--color-cream)] cursor-pointer hover:text-[var(--color-charcoal)] transition-colors gap-0.25"
-          style={{ fontFamily: 'var(--font-heading)' }}
+          style={{ fontFamily: 'var(--font-heading)', fontVariantLigatures: 'none' }}
           onClick={() => handleClick(item.link)}
         >
           {item.title}
@@ -55,7 +55,7 @@ export default function Footer() {
 
       <p
         className="text-sm text-[var(--color-cream)]/60 mt-8"
-        style={{ fontFamily: 'var(--font-sans)' }}
+        style={{ fontFamily: 'var(--font-sans)', fontVariantLigatures: 'none' }}
       >
         Made with &lt;3 by{' '}
         <a

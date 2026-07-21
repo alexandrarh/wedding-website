@@ -28,8 +28,8 @@ export default function OurStory() {
         Our Story
       </p>
       <p
-        className="text-md text-[var(--color-warm-gray)] text-center max-w-4xl"
-        style={{ fontFamily: 'var(--font-heading)' }}
+        className="text-md text-[var(--color-warm-gray)] text-center max-w-4xl pb-8"
+        style={{ fontFamily: 'var(--font-sans)', fontVariantLigatures: 'none' }}
       >
         On a fateful Halloween night in 2021, we met at UC San Diego's infamous Makai dining hall at Sixth College. Recovering from the previous night's respective parties (Halloween happened to fall on a Sunday that year), we initially bonded over Hunter X Hunter...and Minecraft. After three months–and several memorable dates–we officially started dating January 9, 2022. Since then, we've shared countless adventures together, spanning across the state, country, and even the world. Four years (and one cat named Peach) later, we're excited to continue our journey together as we tie the knot in our lovely city, San Francisco &#129505;&#x1F309;!
       </p>
