@@ -3,6 +3,7 @@ import InfoBar from '../components/InfoBar'
 import DetailsCards from '../components/DetailsCards'
 import OurStory from '../components/OurStory'
 import Footer from '../components/Footer'
+import ItineraryDetails from '../components/ItineraryDetails'
 // import SideNav from '../components/SideNav'
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       {/* <SideNav /> */}
       <Hero />
       <InfoBar />
+      <ItineraryDetails />
       <DetailsCards />
       <OurStory />
       <Footer />
