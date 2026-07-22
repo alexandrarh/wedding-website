@@ -1,20 +1,20 @@
 import { useNavigate } from 'react-router-dom'
 
 const cards = [
-  {
-    title: 'the venues',
-    description: 'Our venues are nothing but the best for our lovely guests! Find out more about the ceremony and reception venues.',
-    link: '/venue',
-    image: '/st_doms_cropped.webp',
-    cta: 'Learn More',
-  },
-  {
-    title: 'the itinerary',
-    description: 'The wedding weekend will be stacked with events! Check out the itinerary to see what we planned.',
-    link: '/itinerary',
-    image: '/sf-2.webp',
-    cta: 'View Itinerary',
-  },
+  // {
+  //   title: 'the venues',
+  //   description: 'Our venues are nothing but the best for our lovely guests! Find out more about the ceremony and reception venues.',
+  //   link: '/venue',
+  //   image: '/st_doms_cropped.webp',
+  //   cta: 'Learn More',
+  // },
+  // {
+  //   title: 'the itinerary',
+  //   description: 'The wedding weekend will be stacked with events! Check out the itinerary to see what we planned.',
+  //   link: '/itinerary',
+  //   image: '/sf-2.webp',
+  //   cta: 'View Itinerary',
+  // },
   {
     title: 'where to stay',
     description: 'If you\'re spending more than a day in the city, check out some of our recommended hotels and accommodations to make the most of your time in San Francisco.',
