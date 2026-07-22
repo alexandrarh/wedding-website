@@ -20,8 +20,8 @@ export default function RegistryCards() {
             className="pt-12 pb-18 px-6 flex flex-col items-center gap-6"
             style={{ backgroundColor: 'var(--color-blush)' }}
         >
-            <p className="text-4xl text-[var(--color-charcoal)]" style={{ fontFamily: 'var(--font-heading)' }}>
-                Our registries
+            <p className="text-4xl text-[var(--color-charcoal)]" style={{ fontFamily: 'var(--font-script)' }}>
+                Our Registries
             </p>
             <p
                 className="pb-8 px-4 text-lg text-[var(--color-warm-gray)]"

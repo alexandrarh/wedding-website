@@ -83,8 +83,8 @@ export default function DetailsCards() {
       style={{ backgroundColor: 'var(--color-blush)' }}
     >
       <h1
-        className="text-6xl tracking-[0.02em] text-[var(--color-charcoal)]"
-        style={{ fontFamily: 'var(--font-heading)' }}
+        className="text-6xl text-[var(--color-charcoal)]"
+        style={{ fontFamily: 'var(--font-script)' }}
       >
         Frequently Asked Questions
       </h1>

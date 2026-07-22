@@ -9,22 +9,36 @@ const itinerary = [
   {
     value: 'welcome_party',
     trigger: 'Welcome Party',
-    content: "We'll be kicking off the wedding weekend with a welcome party! Join us for some drinks and light bites as we get ready for the big day.",
-  },
-  {
-    value: 'wedding_ceremony',
-    trigger: 'Wedding Ceremony',
-    content: "The main event! We can't wait to celebrate our love with you all at this beautiful church in the heart of San Francisco.",
-  },
-  {
-    value: 'reception',
-    trigger: 'Reception',
-    content: "Join us for the reception as we celebrate with food, drinks, and dancing! We'll be partying the night away in this beautiful area with stunning views of San Francisco Bay.",
+    content: (
+      <span>
+        Join us for some drinks and light bites as we get ready for the big day. Cocktail attire is recommended.
+        <br></br>
+        <p className="pt-2 text-lg text-[var(--color-rose)] leading-6" style={{ fontFamily: 'var(--font-italic)' }}>
+          Coqueta
+          <br></br>
+          Pier 5 The Embarcadero, San Francisco
+          <br></br>
+          June 4th at six o'clock in the evening
+        </p>
+      </span>
+    ),
   },
   {
     value: 'farewell_brunch',
     trigger: 'Farewell Brunch',
-    content: "We'll be wrapping up the wedding weekend with a farewell brunch! Join us for some breakfast and coffee as we say our goodbyes.",
+    content: (
+      <span>
+        Join us for a farewell brunch to wrap up the wedding weekend. Casual attire is recommended.
+        <br></br>
+        <p className="pt-2 text-lg text-[var(--color-rose)] leading-6" style={{ fontFamily: 'var(--font-italic)' }}>
+          TBD
+          <br></br>
+          TBD
+          <br></br>
+          June 6th at eleven o'clock in the morning
+        </p>
+      </span>
+    ),
   }
 ]
 
@@ -36,10 +50,10 @@ export default function ItineraryDetails() {
       style={{ backgroundColor: 'var(--color-blush)' }}
     >
       <p
-        className="pb-12 text-5xl tracking-[0.1em] text-[var(--color-charcoal)]"
-        style={{ fontFamily: 'var(--font-heading)' }}
+        className="pt-12 pb-12 text-5xl text-[var(--color-charcoal)]"
+        style={{ fontFamily: 'var(--font-script)' }}
       >
-        our itinerary
+        The Wedding Weekend
       </p>
 
       <Accordion multiple className="max-w-4xl w-full border-none">
