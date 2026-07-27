@@ -46,11 +46,11 @@ export default function ItineraryDetails() {
   return (
     <section
       id="itinerary"
-      className="pt-20 pb-12 px-6 flex flex-col items-center gap-0"
+      className="py-30 px-6 flex flex-col items-center gap-0"
       style={{ backgroundColor: 'var(--color-blush)' }}
     >
       <p
-        className="pt-12 pb-12 text-5xl text-[var(--color-charcoal)]"
+        className="pb-8 text-5xl text-[var(--color-charcoal)]"
         style={{ fontFamily: 'var(--font-script)' }}
       >
         The Wedding Weekend

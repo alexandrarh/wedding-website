@@ -1,81 +1,49 @@
 import { useNavigate } from 'react-router-dom'
 
-const cards = [
-  // {
-  //   title: 'the venues',
-  //   description: 'Our venues are nothing but the best for our lovely guests! Find out more about the ceremony and reception venues.',
-  //   link: '/venue',
-  //   image: '/st_doms_cropped.webp',
-  //   cta: 'Learn More',
-  // },
-  // {
-  //   title: 'the itinerary',
-  //   description: 'The wedding weekend will be stacked with events! Check out the itinerary to see what we planned.',
-  //   link: '/itinerary',
-  //   image: '/sf-2.webp',
-  //   cta: 'View Itinerary',
-  // },
-  {
-    title: 'where to stay',
-    description: 'If you\'re spending more than a day in the city, check out some of our recommended hotels and accommodations to make the most of your time in San Francisco.',
-    link: '/where-to-stay',
-    image: '/omni.webp',
-    cta: 'See Suggestions',
-  },
-  {
-    title: 'things to do',
-    description: 'Got some free time on your hands before the wedding? Check out some of our favorite spots in the city to explore. We promise they\'re not all tourist traps!',
-    link: '/things-to-do',
-    image: '/sf_view.webp',
-    cta: 'Explore the City',
-  },
-]
-
 export default function DetailsCards() {
   const navigate = useNavigate()
-
+  
   return (
-    <section
-      id="details"
-      className="py-16 px-6 flex flex-col items-center gap-6"
-      style={{ backgroundColor: 'var(--color-blush)' }}
-    >
-      <p className="text-xl tracking-[0.25em] uppercase text-[var(--color-charcoal)]">Details</p>
-      <p className="text-md text-center text-[var(--color-warm-gray)] px-10" style={{ fontFamily: 'var(--font-sans)', fontVariantLigatures: 'none' }}>
-        We're so excited to celebrate with you! Here are some details about the wedding and our recommendations for your stay in San Francisco, as well as information about the big day!
-      </p>
-      <br></br>
-      {cards.map((card) => (
-        <div
-          key={card.link}
-          className="w-full max-w-4xl rounded-2xl overflow-hidden grid grid-cols-2"
-          style={{ backgroundColor: 'var(--color-cream)' }}
-        >
-          <div className="p-8 flex flex-col justify-center gap-4">
-          <h3
-            className="text-3xl text-[var(--color-charcoal)]"
-            style={{ fontFamily: 'var(--font-heading)' }}
+    <section id="info" className="relative min-h-screen w-full grid grid-cols-1 lg:grid-cols-2">
+      <div className="flex flex-col items-center justify-center px-4 py-16 text-center bg-[var(--color-charcoal)]">
+        <p className="text-6xl text-[var(--color-cream)] mb-2 leading-snug" style={{ fontFamily: 'var(--font-script)' }}>
+          Where to Stay
+        </p>
+        <div className="flex flex-col items-center justify-center py-6 px-4 text-center">
+          <p
+            className="text-xl text-[var(--color-cream)]"
+            style={{ fontFamily: 'var(--font-italic)' }}
           >
-            {card.title}
-          </h3>
-          <p className="text-sm text-[var(--color-warm-gray)] leading-relaxed">
-            {card.description}
+            We're happy to offer courtesy blocks at two San Francisco hotels. Learn more by clicking below.
           </p>
           <button
-            onClick={() => navigate(card.link)}
-            className="self-start mt-2 text-xs tracking-[0.2em] uppercase border-b border-[var(--color-rose)] text-[var(--color-charcoal)] cursor-pointer hover:text-[var(--color-rose)] transition-colors pb-0.5"
-          >
-            {card.cta}
+            onClick={() => navigate('/where-to-stay')}
+            className="mt-4 px-8 py-3 border border-[var(--color-cream)] text-[var(--color-cream)] text-lg cursor-pointer hover:bg-[var(--color-cream)]/10 transition-colors"
+            style={{ fontFamily: 'var(--font-sans)', fontVariantLigatures: 'none', width: '140px', height: '70px', borderRadius: '50%' }}>
+            See hotels
           </button>
         </div>
-
-        <img
-          src={card.image}
-          alt={card.title}
-          className="w-full h-full min-h-64 object-cover"
-        />
       </div>
-      ))}
+
+      <div className="flex flex-col items-center justify-center px-4 py-16 text-center bg-[var(--color-rose)]">
+        <p className="text-6xl text-[var(--color-charcoal)] mb-2 leading-snug" style={{ fontFamily: 'var(--font-script)' }}>
+          Things to Do
+        </p>
+        <div className="flex flex-col items-center justify-center py-6 px-4 text-center">
+          <p
+            className="text-xl text-[var(--color-charcoal)]"
+            style={{ fontFamily: 'var(--font-italic)' }}
+          >
+            Find our curated list of things to do in San Francisco, from food and drinks to sightseeing and entertainment.
+          </p>
+          <button
+            onClick={() => navigate('/things-to-do')}
+            className="mt-4 px-8 py-3 border border-[var(--color-charcoal)] text-[var(--color-charcoal)] text-lg cursor-pointer hover:bg-[var(--color-charcoal)]/10 transition-colors w-fit"
+            style={{ fontFamily: 'var(--font-sans)', fontVariantLigatures: 'none', width: '180px', height: '70px', borderRadius: '50%' }}>
+            Explore the city
+          </button>
+        </div>
+      </div>
     </section>
   )
 }
