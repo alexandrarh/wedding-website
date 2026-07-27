@@ -1,19 +1,19 @@
 const hotel_details = [
   {
     id: 'fairmont',
-    hotel_name: 'fairmont hotel',
+    hotel_name: 'Fairmont Hotel',
     neighborhood: 'Nob Hill',
     price: '$$$',
-    desc: 'Placed on the top of Mason and California Street, this beautiful hotel is home to great views of the Bay and east side of the city. It\'s also where Tony Bennett performed his namesake song "I Left My Heart in San Francisco" in 1961.',
+    desc: 'Placed on the top of Mason and California Street, this beautiful hotel is home to great views of the Bay and east side of the city.',
     img: 'images/where_to_stay/fairmont.webp',
     hotel_link: 'https://www.fairmont.com/en/hotels/san-francisco/fairmont-san-francisco.html'
   },
   {
     id: 'marriot_fishermans',
-    hotel_name: 'marriot fishermans wharf',
+    hotel_name: 'Marriot Fisherman\'s Wharf',
     neighborhood: 'Fishermans Wharf',
     price: '$$',
-    desc: 'Right in the heart of Fisherman\'s Wharf, the Marriot is a great option for those who want to be close to Pier 39 and all of its good eats and attractions (seals included)!',
+    desc: 'A great option for those who want to be close to Pier 39 and all of its good eats and attractions (seals included).',
     img: 'images/where_to_stay/marriot_fishermans.webp',
     hotel_link: 'https://www.marriott.com/en-us/hotels/sfofw-san-francisco-marriott-fishermans-wharf/overview/'
   }
@@ -21,55 +21,42 @@ const hotel_details = [
 
 export default function HotelCards() {
   return (
-    <section
-      id="hotel-cards"
-      className="py-16 px-6 flex flex-col items-center gap-6"
-      style={{ backgroundColor: 'var(--color-cream)' }}
-    >
-      {/* <p className="text-xl tracking-[0.25em] uppercase text-[var(--color-charcoal)]">
-        Where to Stay
-      </p>
-      <p
-        className="text-md text-[var(--color-warm-gray)]"
-        style={{ fontFamily: 'var(--font-heading)' }}
-      >
-        Some paragraph containing thanks and such for coming...
-      </p> */}
-
+    <section id="info" className="relative min-h-screen w-full grid grid-cols-1 lg:grid-cols-2">
       {hotel_details.map((hotel) => (
         <div
           key={hotel.id}
-          className="w-full max-w-4xl rounded-2xl overflow-hidden grid grid-cols-2"
-          style={{ backgroundColor: 'var(--color-blush)' }}
+          className="relative flex flex-col items-center justify-center px-4 py-16 text-center"
+          style={{
+            backgroundImage: `url(/${hotel.img})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
         >
-          <div className="p-9 flex flex-col justify-center gap-4">
-            <h3
-              className="text-3xl text-[var(--color-charcoal)]"
-              style={{ fontFamily: 'var(--font-heading)' }}
-            >
+          <div className="absolute inset-0 bg-black/60" />
+          <div className="relative z-10 flex flex-col items-center justify-center py-6 px-4 text-center">
+            <p className="text-5xl text-[var(--color-cream)] mb-2 leading-snug" style={{ fontFamily: 'var(--font-script)' }}>
               {hotel.hotel_name}
-            </h3>
-            <p className="text-xs tracking-[0.25em] uppercase text-[var(--color-warm-gray)]">
+            </p>
+            <p
+              className="text-lg text-[var(--color-cream)]"
+              style={{ fontFamily: 'var(--font-serif)' }}
+            >
               {hotel.neighborhood} ({hotel.price})
             </p>
-            <p className="text-sm text-[var(--color-warm-gray)] leading-relaxed">
+            <p
+              className="text-xl text-[var(--color-cream)]"
+              style={{ fontFamily: 'var(--font-italic)' }}
+            >
               {hotel.desc}
             </p>
-            <a
-              href={hotel.hotel_link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="self-start mt-2 text-xs tracking-[0.2em] uppercase border-b border-[var(--color-rose)] text-[var(--color-charcoal)] hover:text-[var(--color-rose)] transition-colors pb-0.5"
+            <button
+              onClick={() => window.open(hotel.hotel_link, '_blank')}
+              className="mt-4 px-8 py-3 border border-[var(--color-cream)] text-[var(--color-cream)] text-lg cursor-pointer hover:bg-[var(--color-cream)]/10 transition-colors"
+              style={{ fontFamily: 'var(--font-sans)', fontVariantLigatures: 'none', width: '160px', height: '60px', borderRadius: '50%' }}
             >
-              View Hotel
-            </a>
+              Book a room
+            </button>
           </div>
-
-          <img
-            src={hotel.img}
-            alt={hotel.hotel_name}
-            className="w-full h-full min-h-64 object-cover"
-          />
         </div>
       ))}
     </section>
