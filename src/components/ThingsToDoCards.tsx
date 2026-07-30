@@ -27,7 +27,7 @@ const things_to_do = [
 
 export default function ThingsToDoCards() {
   return (
-    <section id="info" className="relative w-full grid grid-cols-1 lg:grid-cols-3">
+    <section id="things_to_do" className="relative w-full grid grid-cols-1 lg:grid-cols-3">
       {things_to_do.map((thing) => (
         <div
           key={thing.id}
