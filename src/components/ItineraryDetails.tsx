@@ -50,10 +50,10 @@ export default function ItineraryDetails() {
       style={{ backgroundColor: 'var(--color-blush)' }}
     >
       <p
-        className="pb-8 text-5xl text-[var(--color-charcoal)]"
+        className="pb-8 text-5xl text-[var(--color-charcoal)] leading-snug text-center"
         style={{ fontFamily: 'var(--font-script)' }}
       >
-        The Wedding Weekend
+        Other Wedding Weekend Events
       </p>
 
       <Accordion multiple className="max-w-4xl w-full border-none">

@@ -12,7 +12,7 @@ const things_to_do = [
     title: 'Spots to See',
     desc: 'Some things you can\'t miss while you\'re in San Francisco.',
     img: 'images/spots_to_see/deyoung.webp', // replace with actual image path
-    link: 'https://maps.app.goo.gl/Jzvhb5VmQQMAjceCA',
+    link: 'https://maps.app.goo.gl/MVtWDpULB876qCdg6',
     button_text: 'View Spots'
   },
   {
@@ -20,7 +20,7 @@ const things_to_do = [
     title: 'City Shopping',
     desc: 'A mix of local and non-local shops to check out (literally and figuratively).',
     img: 'images/polo_rl.webp', // replace with actual image path
-    link: 'https://maps.app.goo.gl/Jzvhb5VmQQMAjceCA',
+    link: 'https://maps.app.goo.gl/xCZ2F7bHfAFGnQ2e9',
     button_text: 'View Shops'
   }
 ]
