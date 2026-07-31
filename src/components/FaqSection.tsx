@@ -15,7 +15,7 @@ const faq_section: { id: string; question: string; answer: ReactNode }[] = [
         >
           rsvp.alexandseamus2027.com
         </a>
-        . Please RSVP by <b>[date]</b> so we can get an accurate headcount. If you have
+        . Please RSVP by <b>May 7th, 2027</b> so we can get an accurate headcount. If you have
         any questions about RSVPing, please reach out to us at{' '}
         <a
           href="mailto:info@alexandseamus2027.com"
@@ -53,7 +53,7 @@ const faq_section: { id: string; question: string; answer: ReactNode }[] = [
     id: '4',
     question: 'What about kids?',
     answer:
-      'Kids are allowed at the events, but in order to minimize disruption on both, we would recommend finding a babysitter. That way, you can also enjoy your time at the party!',
+      'Kids are always welcome! However, we want to maintain a respectiful environment during the ceremony; we ask that everyone is on their best behavior and mindful of noise–and other guests.',
   },
   {
     id: '5',
@@ -106,7 +106,7 @@ export default function DetailsCards() {
             {faq.question}
           </h2>
           <p
-            className="pb-6 text-md text-[var(--color-warm-gray)]"
+            className="pb-6 text-md text-[var(--color-warm-gray)] tracking-[0.02em]"
             style={{ fontFamily: 'var(--font-italic)', fontVariantLigatures: 'none' }}
           >
             {faq.answer}

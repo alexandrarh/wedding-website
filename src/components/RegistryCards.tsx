@@ -4,8 +4,8 @@ const registry_cards = [
     name: 'Williams Sonoma',
     desc: 'Primarily kitchen goods here.',
     link: 'https://www.williams-sonoma.com/registry/t2gzhtqbgl/registry-list.html',
-    bg_color: 'var(--color-cream)',
-    text_color: 'var(--color-charcoal)',
+    bg_color: 'var(--color-charcoal)',
+    text_color: 'var(--color-cream)',
     button_text: 'View Registry',
   },
   {
@@ -13,8 +13,8 @@ const registry_cards = [
     name: "Bloomingdale's",
     desc: 'A mix of home goods and kitchen items.',
     link: 'https://www.bloomingdales.com/registry/Alexandra-Hernandez-Seamus-McNulty/1625534',
-    bg_color: 'var(--color-blush)',
-    text_color: 'var(--color-rose)',
+    bg_color: 'var(--color-cream)',
+    text_color: 'var(--color-charcoal)',
     button_text: 'View Registry',
   },
   {
@@ -22,8 +22,8 @@ const registry_cards = [
     name: 'Honeymoon Fund',
     desc: "If you'd like to contribute to our honeymoon, please check out our honeymoon fund.",
     link: 'https://www.venmo.com/u/alexavndra',
-    bg_color: 'var(--color-charcoal)',
-    text_color: 'var(--color-blush)',
+    bg_color: 'var(--color-blush)',
+    text_color: 'var(--color-charcoal)',
     button_text: 'Give a Gift',
   },
 ]
