@@ -19,7 +19,7 @@ export default function ThingsToDo() {
     <main>
       <section
         className="pt-14 pb-8 px-6 flex flex-col items-center gap-0"
-        style={{ backgroundColor: 'var(--color-rose)' }}
+        style={{ backgroundColor: 'var(--color-cream)' }}
       >
         <p
           className="text-6xl text-[var(--color-charcoal)] text-center leading-snug"

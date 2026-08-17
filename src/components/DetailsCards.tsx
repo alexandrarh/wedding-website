@@ -25,7 +25,7 @@ export default function DetailsCards() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center justify-center px-4 py-16 text-center bg-[var(--color-rose)]">
+      <div className="flex flex-col items-center justify-center px-4 py-16 text-center bg-[var(--color-cream)]">
         <p className="text-6xl text-[var(--color-charcoal)] mb-2 leading-snug" style={{ fontFamily: 'var(--font-script)' }}>
           Things to Do
         </p>

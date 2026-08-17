@@ -1,7 +1,7 @@
 import Hero from '../components/Hero'
 import InfoBar from '../components/InfoBar'
 import DetailsCards from '../components/DetailsCards'
-import OurStory from '../components/OurStory'
+// import OurStory from '../components/OurStory'
 import Footer from '../components/Footer'
 import ItineraryDetails from '../components/ItineraryDetails'
 // import SideNav from '../components/SideNav'
@@ -14,7 +14,7 @@ export default function Home() {
       <InfoBar />
       <ItineraryDetails />
       <DetailsCards />
-      <OurStory />
+      {/* <OurStory /> */}
       <Footer />
     </main>
   )
