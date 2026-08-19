@@ -14,9 +14,9 @@ const itinerary = [
         Join us for some drinks and light bites as we get ready for the big day. Cocktail attire is recommended.
         <br></br>
         <p className="pt-2 text-lg text-[var(--color-rose)] leading-6" style={{ fontFamily: 'var(--font-italic)' }}>
-          Coqueta
+          High Horse
           <br></br>
-          Pier 5 The Embarcadero, San Francisco
+          582 Washington St, San Francisco, CA 94111
           <br></br>
           June 4th at six o'clock in the evening
         </p>

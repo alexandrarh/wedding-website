@@ -32,7 +32,25 @@ const faq_section: { id: string; question: string; answer: ReactNode }[] = [
     question: 'What is "Black Tie" attire?',
     answer: (
       <span>
-        Black tie attire is tuxedoes and floor length dresses (cocktail and formal). We expect you all to look your best (no jeans, sneakers, shorts, etc.)! If you need suggestions, or want to ask about your outfit, reach out to us at {''}
+        Black tie attire are tuxedoes {''}
+        <a 
+          href="https://tinyurl.com/27pspvef" 
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[var(--color-rose)]"
+        >
+          (see here)
+        </a>.  
+        and floor length dresses/gowns {''}
+        <a 
+          href="https://www.pinterest.com/search/pins/?q=black%20tie%20attire%20women&rs=typed" 
+          target="_blank"
+          rel="noopener noreferrer" 
+          className="text-[var(--color-rose)]"
+        >
+          (see here)
+        </a>. 
+        We expect you all to look your best (no jeans, sneakers, shorts, t-shirts, etc.)! If you need suggestions, or want to ask about your outfit, reach out to us at {''}
         <a
           href="mailto:info@alexandseamus2027.com"
           rel="noopener noreferrer"
