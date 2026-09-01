@@ -31,9 +31,9 @@ const itinerary = [
         Join us for a farewell brunch to wrap up the wedding weekend. Casual attire is recommended.
         <br></br>
         <p className="pt-2 text-lg text-[var(--color-rose)] leading-6" style={{ fontFamily: 'var(--font-italic)' }}>
-          TBD
+          Crown Room at the Fairmont
           <br></br>
-          TBD
+          950 Mason St, San Francisco, CA 94108
           <br></br>
           June 6th at eleven o'clock in the morning
         </p>

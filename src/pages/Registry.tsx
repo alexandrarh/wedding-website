@@ -24,15 +24,15 @@ export default function Registry() {
           </p>
         </div>
       </section>
-      <RegistryCards />
       <section
-        className="py-20 flex justify-center items-center gap-0"
-        style={{ backgroundColor: 'var(--color-jade-green)' }}
+        className="py-5 flex justify-center items-center gap-0"
+        style={{ backgroundColor: 'var(--color-rose)' }}
       >
         <p className="px-16 text-md text-center text-[var(--color-charcoal)] tracking-[0.02em]" style={{ fontFamily: 'var(--font-serif)' }}>
-          Thank you so much for your love and support. We're so excited to celebrate with you and can't wait to see you all.
+          Thank you so much for your love and support. We're so excited to celebrate with you and can't wait to see you all!
         </p>
       </section>
+      <RegistryCards />
       <Footer />
     </main>
   )

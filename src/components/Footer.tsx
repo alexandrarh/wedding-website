@@ -6,17 +6,17 @@ const page_links = [
     link: '/',
   },
   {
-    title: 'Registry',
-    link: '/registry',
-  },
-  {
     title: 'FAQ',
     link: '/faq',
   },
   {
     title: 'RSVP',
     link: 'https://rsvp.alexandseamus2027.com',
-  }
+  },
+  {
+    title: 'Registry',
+    link: '/registry',
+  },
 ]
 
 export default function Footer() {
