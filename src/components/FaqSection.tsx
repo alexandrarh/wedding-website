@@ -34,23 +34,23 @@ const faq_section: { id: string; question: string; answer: ReactNode }[] = [
       <span>
         Black tie attire are tuxedoes {''}
         <a 
-          href="https://tinyurl.com/27pspvef" 
+          href="https://pin.it/4nHkSPzQv" 
           target="_blank"
           rel="noopener noreferrer"
           className="text-[var(--color-rose)]"
         >
           (see here)
-        </a>.  
+        </a>  
         and floor length dresses/gowns {''}
         <a 
-          href="https://www.pinterest.com/search/pins/?q=black%20tie%20attire%20women&rs=typed" 
+          href="https://pin.it/8AMi9IUIK" 
           target="_blank"
           rel="noopener noreferrer" 
           className="text-[var(--color-rose)]"
         >
           (see here)
         </a>. 
-        We expect you all to look your best (no jeans, sneakers, shorts, t-shirts, etc.)! If you need suggestions, or want to ask about your outfit, reach out to us at {''}
+        We expect you all to look your best, as we will be in a formal setting, and there will be a photographer; that means no jeans, sneakers, shorts, t-shirts, white or white-adjacent clothing, etc! If you need suggestions, or want to ask about your outfit, reach out to us at {''}
         <a
           href="mailto:info@alexandseamus2027.com"
           rel="noopener noreferrer"
@@ -101,7 +101,7 @@ export default function DetailsCards() {
       style={{ backgroundColor: 'var(--color-blush)' }}
     >
       <h1
-        className="text-6xl text-[var(--color-charcoal)]"
+        className="text-6xl text-[var(--color-charcoal)] leading-relaxed text-center"
         style={{ fontFamily: 'var(--font-script)' }}
       >
         Frequently Asked Questions
