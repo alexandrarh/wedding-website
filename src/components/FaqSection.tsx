@@ -6,7 +6,7 @@ const faq_section: { id: string; question: string; answer: ReactNode }[] = [
     question: 'Where do I RSVP?',
     answer: (
       <span>
-        You can either mail your RSVP to the return address listed on the invitation, or complete it via{' '}
+        You can either mail your RSVP to the with the return envelope included in the invitation, or complete it via {' '}
         <a
           href="https://rsvp.alexandseamus2027.com"
           target="_blank"
@@ -16,7 +16,7 @@ const faq_section: { id: string; question: string; answer: ReactNode }[] = [
           rsvp.alexandseamus2027.com
         </a>
         . Please RSVP by <b>May 7th, 2027</b> so we can get an accurate headcount. If you have
-        any questions about RSVPing, please reach out to us at{' '}
+        any questions about RSVPing, please reach out to us at {' '}
         <a
           href="mailto:info@alexandseamus2027.com"
           rel="noopener noreferrer"
@@ -29,10 +29,11 @@ const faq_section: { id: string; question: string; answer: ReactNode }[] = [
   },
   {
     id: '2',
-    question: 'What is "Black Tie" attire?',
+    question: 'What does "Formal Attire required, Black Tie optional" mean?',
     answer: (
       <span>
-        Black tie attire are tuxedoes {''}
+        Due to the formal nature of the event, we require that all guests adhere to the dress code. 
+        In terms of formal wear, we expect men to wear tuxedoes or tailored suits {''}
         <a 
           href="https://pin.it/4nHkSPzQv" 
           target="_blank"
@@ -40,8 +41,9 @@ const faq_section: { id: string; question: string; answer: ReactNode }[] = [
           className="text-[var(--color-rose)]"
         >
           (see here)
-        </a>  
-        and floor length dresses/gowns {''}
+        </a>, 
+        and women to wear floor-length dresses, or elegant midi/tea-length dresses
+        {''} and floor length dresses/gowns {''}
         <a 
           href="https://pin.it/8AMi9IUIK" 
           target="_blank"
@@ -50,43 +52,60 @@ const faq_section: { id: string; question: string; answer: ReactNode }[] = [
         >
           (see here)
         </a>. 
-        We expect you all to look your best, as we will be in a formal setting, and there will be a photographer; that means no jeans, sneakers, shorts, t-shirts, white or white-adjacent clothing, etc! If you need suggestions, or want to ask about your outfit, reach out to us at {''}
+        <br></br>As such, we will not accept casual attire such as jeans, sneakers, shorts, t-shirts, as well as white or white-adjacent clothing. If you need suggestions or clarification, reach out to {''}
         <a
           href="mailto:info@alexandseamus2027.com"
           rel="noopener noreferrer"
           className="text-[var(--color-rose)]"
         >
           info@alexandseamus2027.com
-        </a>!
+        </a> for assistance.
       </span>
     )
   },
   {
-    id: '3',
+    id: '4',
+    question: "I missed the RSVP deadline. Can I still come?",
+    answer: (
+      <span>
+        Though we need to have an accurate headcount for the caterer, we understand that life can happen. If you missed the RSVP deadline, please reach out to us at {''}
+        <a
+          href="mailto:info@alexandseamus2027.com"
+          rel="noopener noreferrer"
+          className="text-[var(--color-rose)]"
+        >
+          info@alexandseamus2027.com
+        </a>
+        {''} and see if we can still accommodate. We will do our best to make sure you can attend, but we cannot guarantee it.
+      </span>
+    )
+  },
+  {
+    id: '5',
     question: "How far are St. Dominic's and Presidio Officers' Club from each other?",
     answer: 
       "They're about 2.5 miles apart, which is 10-15 minutes by car, 38 minutes by public transit (take the 43 MUNI bus at the Presidio Ave and Sutter St. station), or approximately 45 minutes by walking. The great thing about San Francisco is that the walking and public transportation are pretty reliable, so any form of transportation works! But in black tie attire, probably recommend taking an Uber, Lyft, Waymo, or your car.",
   },
   {
-    id: '4',
+    id: '6',
     question: 'What about kids?',
     answer:
-      'Kids are always welcome! However, we want to maintain a respectiful environment during the ceremony; we ask that everyone is on their best behavior and mindful of noise–and other guests.',
+      'Kids are always welcome! However, we want to maintain a respectful environment during the ceremony; we ask that everyone is on their best behavior and mindful of noise–and other guests.',
   },
   {
-    id: '5',
+    id: '7',
     question: 'Will there be an open bar?',
     answer:
-      'Yes, we will have an open bar at the reception (both cocktail, dinner, and dancing hours)! We do ask however that you drink responsibly and do not drink and drive. Please be sure to have a designated driver or use a rideshare service if you plan on drinking. We want everyone to have fun and be safe!',
+      'Yes, we will have an open bar at the reception (both cocktail, dinner, and dancing hours)! We do ask however that you drink responsibly, and do not drink and drive. Please be sure to have a designated driver or use a rideshare service if you plan on drinking. We want everyone to have fun and be safe!',
   },
   {
-    id: '6',
+    id: '8',
     question: "I'm driving to San Francisco the day of. Is there parking where the events are at?",
     answer:
       "There is a parking lot, as well as ample street parking, in front and by St. Dominic's. In the Presidio Officers' Club, there's ample parking in front of the building.",
   },
   {
-    id: '7',
+    id: '9',
     question: "Who\'s the cat in your favicon?",
     answer:
       "That\'s our cat, Peach! She\'s a talkative orange tabby who loves pets, foods, cuddles, and zoomies. Though she won\'t be present at the wedding, she says to all of you, \"MROW!\"",

@@ -13,10 +13,10 @@ const page_links = [
     title: 'RSVP',
     link: 'https://rsvp.alexandseamus2027.com',
   },
-  {
-    title: 'Registry',
-    link: '/registry',
-  },
+  // {
+  //   title: 'Registry',
+  //   link: '/registry',
+  // },
 ]
 
 export default function Footer() {

@@ -73,7 +73,11 @@
     --color-blush: var(--color-blush);
     --color-rose: var(--color-rose);
     --color-warm-gray: var(--color-warm-gray);
-    --color-charcoal: var(--color-charcoal);
+    --color-espresso: var(--color-espresso);
+    --color-sage-green: var(--color-sage-green);
+    --color-hunter-green: var(--color-hunter-green);
+    --color-amaranth: var(--color-amaranth);
+    --color-neutral-blush: var(--color-neutral-blush);
     --color-ring: var(--ring);
     --color-input: var(--input);
     --color-border: var(--border);
@@ -136,10 +140,14 @@
     --sidebar-ring: oklch(0.708 0 0);
     --color-cream: oklch(0.98 0.004 90);
     --color-blush: oklch(0.94 0.02 30);
+    --color-neutral-blush: oklch(73.1% 0.0915 12.59);
     --color-rose: oklch(0.5802 0.0843 13.05);
+    --color-amaranth: oklch(36.43% 0.1305 8.68);
     --color-warm-gray: oklch(0.58 0.004 90);
     --color-charcoal: oklch(0.22 0.003 90);
-    --color-jade-green: oklch(0.724 0.091 134.3);
+    --color-sage-green: oklch(61.88% 0.0732 140.37);
+    --color-hunter-green: oklch(44.74% 0.0573 143.72);
+    --color-espresso: oklch(29.16% 0.0464 22.34);
 }
 
 .dark {

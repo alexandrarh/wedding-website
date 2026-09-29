@@ -9,7 +9,7 @@ export default function Hero() {
       className="relative h-screen w-full flex flex-col items-center justify-center text-center overflow-hidden"
     >
       <img
-        src="/hero.webp"
+        src="/picture-1-diff2.webp"
         alt=""
         className="absolute inset-0 w-full h-full object-cover"
       />
