@@ -4,12 +4,12 @@ export default function DetailsCards() {
   const navigate = useNavigate()
   
   return (
-    <section id="info" className="relative min-h-screen w-full grid grid-cols-1 lg:grid-cols-2">
-      <div className="flex flex-col items-center justify-center px-4 py-16 text-center bg-[var(--color-charcoal)]">
-        <p className="text-6xl text-[var(--color-cream)] mb-2 leading-snug" style={{ fontFamily: 'var(--font-script)' }}>
+    <section id="info" className="relative min-h-[80vh] w-full grid grid-cols-1 lg:grid-cols-2">
+      <div className="flex flex-col items-center justify-center px-2 py-16 text-center bg-[var(--color-charcoal)]">
+        <p className="text-4xl text-[var(--color-cream)] mb-2 leading-snug" style={{ fontFamily: 'var(--font-script)' }}>
           Where to Stay
         </p>
-        <div className="flex flex-col items-center justify-center py-6 px-4 text-center">
+        <div className="flex flex-col items-center justify-center px-4 text-center">
           <p
             className="text-xl text-[var(--color-cream)]"
             style={{ fontFamily: 'var(--font-italic)' }}
@@ -25,16 +25,16 @@ export default function DetailsCards() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center justify-center px-4 py-16 text-center bg-[var(--color-cream)]">
-        <p className="text-6xl text-[var(--color-charcoal)] mb-2 leading-snug" style={{ fontFamily: 'var(--font-script)' }}>
+      <div className="flex flex-col items-center justify-center px-2 py-16 text-center bg-[var(--color-cream)]">
+        <p className="text-4xl text-[var(--color-charcoal)] mb-2 leading-snug" style={{ fontFamily: 'var(--font-script)' }}>
           Things to Do
         </p>
-        <div className="flex flex-col items-center justify-center py-6 px-4 text-center">
+        <div className="flex flex-col items-center justify-center px-4 text-center">
           <p
             className="text-xl text-[var(--color-charcoal)]"
             style={{ fontFamily: 'var(--font-italic)' }}
           >
-            Find our curated list of things to do in San Francisco, from food and drinks to sightseeing and entertainment.
+            Find our curated list of things to do in the city, from food + drinks to sightseeing and entertainment.
           </p>
           <button
             onClick={() => navigate('/things-to-do')}

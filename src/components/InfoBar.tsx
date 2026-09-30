@@ -1,11 +1,11 @@
 export default function InfoBar() {
   return (
-    <section id="info" className="relative min-h-screen w-full grid grid-cols-1 lg:grid-cols-2">
-      <div className="flex flex-col items-center justify-center px-4 py-16 text-center">
-        <p className="text-6xl text-[var(--color-rose)] mb-2" style={{ fontFamily: 'var(--font-script)' }}>
+    <section id="info" className="relative min-h-screen w-full grid grid-cols-1 lg:grid-cols-2" style={{ backgroundColor: 'var(--color-cream)' }}>
+      <div className="flex flex-col items-center justify-center px-4 py-10 text-center">
+        <p className="text-5xl text-[var(--color-charcoal)] mb-2" style={{ fontFamily: 'var(--font-script)' }}>
           The Ceremony
         </p>
-        <div className="flex flex-col items-center justify-center py-15 px-4 text-center">
+        <div className="flex flex-col items-center justify-center px-4 text-center">
           <p
             className="text-lg text-[var(--color-charcoal)]"
             style={{ fontFamily: 'var(--font-serif)' }}
@@ -16,7 +16,7 @@ export default function InfoBar() {
             className="text-xl text-[var(--color-charcoal)]"
             style={{ fontFamily: 'var(--font-italic)' }}
           >
-            Three o'clock in the afternoon <br></br> Black tie attire
+            Three o'clock in the afternoon <br></br> Formal attire required, black tie optional
           </p>
           <p
             className="text-md text-[var(--color-warm-gray)] py-2"
@@ -27,11 +27,11 @@ export default function InfoBar() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center justify-center px-4 py-16 text-center">
-        <p className="text-6xl text-[var(--color-rose)] mb-2" style={{ fontFamily: 'var(--font-script)' }}>
+      <div className="flex flex-col items-center justify-center px-4 text-center">
+        <p className="text-5xl text-[var(--color-charcoal)] mb-2" style={{ fontFamily: 'var(--font-script)' }}>
           The Reception
         </p>
-        <div className="flex flex-col items-center justify-center py-15 px-4 text-center">
+        <div className="flex flex-col items-center justify-center px-4 py-4 text-center">
           <p
             className="text-lg text-[var(--color-charcoal)]"
             style={{ fontFamily: 'var(--font-serif)' }}
