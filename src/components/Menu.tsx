@@ -8,6 +8,7 @@ const links = [
   { title: 'When in San Francisco', id: 'being-in-sf' },
   { title: 'Travel', id: 'travel' },
   { title: 'Registries', id: 'registries' },
+  { title: 'FAQ', link: '/faq' },
   { title: 'RSVP', link: 'https://rsvp.alexandseamus2027.com' },
 ]
 
@@ -45,19 +46,24 @@ export default function Menu() {
   const handleClick = (item: { title: string; id?: string; link?: string }) => {
     setOpen(false)
     if (item.link?.startsWith('http')) {
-      window.open(item.link, '_blank')
+        window.open(item.link, '_blank')
+    } else if (item.link) {
+        // Internal route navigation
+        setTimeout(() => {
+        navigate(item.link!)
+        window.scrollTo({ top: 0, behavior: 'smooth' })
+        }, 300)
     } else if (item.id) {
-      if (!isHome) {
-        // Navigate home first, then scroll after page loads
+        if (!isHome) {
         navigate('/')
         setTimeout(() => {
-          document.getElementById(item.id!)?.scrollIntoView({ behavior: 'smooth' })
+            document.getElementById(item.id!)?.scrollIntoView({ behavior: 'smooth' })
         }, 500)
-      } else {
+        } else {
         setTimeout(() => {
-          document.getElementById(item.id!)?.scrollIntoView({ behavior: 'smooth' })
+            document.getElementById(item.id!)?.scrollIntoView({ behavior: 'smooth' })
         }, 300)
-      }
+        }
     }
   }
 
