@@ -1,7 +1,12 @@
+import { useState, useEffect } from 'react'
+
 export default function Hero() {
-  const handleScroll = () => {
-    document.getElementById("info")?.scrollIntoView({ behavior: "smooth" })
-  }
+  const [visible, setVisible] = useState(false)
+
+  useEffect(() => {
+    const timer = setTimeout(() => setVisible(true), 100)
+    return () => clearTimeout(timer)
+  }, [])
 
   return (
     <section
@@ -15,45 +20,24 @@ export default function Hero() {
       />
       <div className="absolute inset-0 bg-black/50" />
 
-      <div className="relative z-10 flex flex-col items-center gap-2 md:gap-4 px-6 pt-24 pb-10 md:pt-5 md:pb-0">        
-        {/* <p className="text-xs tracking-[0.25em] uppercase text-white/70">
-          Love is in the air!
-        </p> */}
-
-        <img src="/logo-1.webp" alt="Logo" className="max-w-[55vw] max-h-[45vh] md:max-w-[70vw] lg:max-w-none lg:w-90 lg:h-90 object-contain" />
-
-        {/* <h1
-          className="text-6xl text-white pt-10 pb-10"
-          style={{ fontFamily: 'var(--font-script)' }}
-        >
-          Alexandra <span style={{ color: 'var(--color-rose)' }}>&</span> Seamus
-        </h1> */}
+      <div className="relative z-10 flex flex-col items-center gap-2 md:gap-4 px-6 pt-24 pb-10 md:pt-5 md:pb-0">
+        <img
+          src="/logo-1.webp"
+          alt="Logo"
+          className="max-w-[55vw] max-h-[45vh] md:max-w-[70vw] lg:max-w-none lg:w-90 lg:h-90 object-contain transition-opacity duration-1000"
+          style={{ opacity: visible ? 1 : 0 }}
+        />
 
         <p
-          className="text-md tracking-[0.2em] text-white/80 mt-1 pt-4"
-          style={{ fontFamily: 'var(--font-heading)', fontVariantLigatures: 'none' }}
+          className="text-md tracking-[0.2em] text-white/80 mt-1 pt-4 transition-opacity duration-1000 delay-500"
+          style={{
+            fontFamily: 'var(--font-heading)',
+            fontVariantLigatures: 'none',
+            opacity: visible ? 1 : 0,
+          }}
         >
-          june 5, 2027 {/*  &nbsp;&mdash;&nbsp; San Francisco, CA */}
+          june 5, 2027
         </p>
-
-        {/* <div className="w-8 h-px bg-white/50 mt-2" /> */}
-
-        <div className="flex flex-col items-center gap-1 md:pb-5">
-          <a
-          href="https://rsvp.alexandseamus2027.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-4 text-xs tracking-[0.22em] uppercase text-white border border-white/50 px-8 py-3 cursor-pointer hover:bg-white/10 transition-colors"
-          >
-            RSVP
-          </a>
-          <button
-            onClick={handleScroll}
-            className="mt-4 text-xs tracking-[0.22em] uppercase text-white border border-white/50 px-8 py-3 cursor-pointer hover:bg-white/10 transition-colors"
-          >
-            See Details
-          </button>
-        </div>
       </div>
     </section>
   )

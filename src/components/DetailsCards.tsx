@@ -6,8 +6,8 @@ export default function DetailsCards() {
   return (
     <section id="info" className="relative min-h-[80vh] w-full grid grid-cols-1 lg:grid-cols-2">
       <div className="flex flex-col items-center justify-center px-2 py-16 text-center bg-[var(--color-charcoal)]">
-        <p className="text-4xl text-[var(--color-cream)] mb-2 leading-snug" style={{ fontFamily: 'var(--font-script)' }}>
-          Where to Stay
+        <p className="text-5xl text-[var(--color-cream)] mb-2 leading-snug" style={{ fontFamily: 'var(--font-icon)' }}>
+          where to stay
         </p>
         <div className="flex flex-col items-center justify-center px-4 text-center">
           <p
@@ -26,8 +26,8 @@ export default function DetailsCards() {
       </div>
 
       <div className="flex flex-col items-center justify-center px-2 py-16 text-center bg-[var(--color-cream)]">
-        <p className="text-4xl text-[var(--color-charcoal)] mb-2 leading-snug" style={{ fontFamily: 'var(--font-script)' }}>
-          Things to Do
+        <p className="text-5xl text-[var(--color-charcoal)] mb-2 leading-snug" style={{ fontFamily: 'var(--font-icon)' }}>
+          things to do
         </p>
         <div className="flex flex-col items-center justify-center px-4 text-center">
           <p
