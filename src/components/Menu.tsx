@@ -71,7 +71,7 @@ export default function Menu() {
         style={{ backgroundColor: 'var(--color-cream)', borderBottom: '0.5px solid var(--color-warm-gray)' }}
       >
         <img
-          src="/logo-2-pink.webp"
+          src="/wedding-logo-mono.webp"
           alt="Logo"
           className="h-14 w-auto object-contain cursor-pointer"
           onClick={() => {
