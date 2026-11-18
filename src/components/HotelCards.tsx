@@ -15,7 +15,7 @@ const hotel_details = [
     price: '$$',
     desc: 'A great option for those who want to be close to Pier 39 and all of its good eats and attractions (seals included).',
     img: 'images/where_to_stay/marriot_fishermans.webp',
-    hotel_link: 'https://www.marriott.com/en-us/hotels/sfofw-san-francisco-marriott-fishermans-wharf/overview/'
+    hotel_link: 'https://app.marriott.com/resview2?id=1794424670954&key=GRP&app=resvlink'
   }
 ]
 
@@ -54,7 +54,7 @@ export default function HotelCards() {
               className="mt-4 px-8 py-3 border border-[var(--color-cream)] text-[var(--color-cream)] text-lg cursor-pointer hover:bg-[var(--color-cream)]/10 transition-colors"
               style={{ fontFamily: 'var(--font-sans)', fontVariantLigatures: 'none', width: '160px', height: '60px', borderRadius: '50%' }}
             >
-              Book a room
+              Book your stay
             </button>
           </div>
         </div>
